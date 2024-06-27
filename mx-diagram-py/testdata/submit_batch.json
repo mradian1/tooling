@@ -1,0 +1,84 @@
+{
+    "txHash": "0419c52371b6ea5e6c4985be96da87dca29896a1b2c4856c18ddd36767deb18f",
+    "gasLimit": 40000000,
+    "gasPrice": 2000000000,
+    "gasUsed": 13703192,
+    "miniBlockHash": "c61eff7106e9906cd3d934d4a2ca375120dc64e842aa2e78d9aa5e3565c99011",
+    "nonce": 127462,
+    "receiver": "erd1qqqqqqqqqqqqqpgqgkr4sfm4dcmux9evu4xzxpujgzlavurmv5ysv7nflv",
+    "receiverShard": 1,
+    "round": 4212822,
+    "sender": "erd13s63yrey07njylxug42tw0uwxgac8snejaj9vxtue2knjhs84xzslmzcds",
+    "senderShard": 1,
+    "signature": "0b0b02af4515a674b9eaca6daddcae54daac88e5c8d79459d025d708fcbd4393a31cd51f212cc8026f92395ec76f3c57dec86c64a26983626f4eeb2052a2180a",
+    "status": "success",
+    "value": "0",
+    "fee": "536413840000000",
+    "timestamp": 1719276932,
+    "data": "c3VibWl0QmF0Y2hANTc1NDQxNGZANTU1MzQ0QDY2N2ExNTdkQDBmMmIxOGY4ZDYzYzJlYzVkOA==",
+    "function": "submitBatch",
+    "action": {
+      "category": "scCall",
+      "name": "submitBatch"
+    },
+    "results": [
+      {
+        "hash": "db06225bec5c288f751a68c37eb15bcb51ca76fe56881a4031235880e3f6bda2",
+        "timestamp": 1719276932,
+        "nonce": 127463,
+        "gasLimit": 0,
+        "gasPrice": 2000000000,
+        "value": "525936160000000",
+        "sender": "erd1qqqqqqqqqqqqqpgqgkr4sfm4dcmux9evu4xzxpujgzlavurmv5ysv7nflv",
+        "receiver": "erd13s63yrey07njylxug42tw0uwxgac8snejaj9vxtue2knjhs84xzslmzcds",
+        "data": "QDZmNmI=",
+        "prevTxHash": "0419c52371b6ea5e6c4985be96da87dca29896a1b2c4856c18ddd36767deb18f",
+        "originalTxHash": "0419c52371b6ea5e6c4985be96da87dca29896a1b2c4856c18ddd36767deb18f",
+        "callType": "0",
+        "miniBlockHash": "f1fd6a7f190537f2e4a46afc130b1cc6f73af9ec07cf688984c72ebef833ec3c"
+      }
+    ],
+    "logs": {
+      "id": "0419c52371b6ea5e6c4985be96da87dca29896a1b2c4856c18ddd36767deb18f",
+      "address": "erd1qqqqqqqqqqqqqpgqgkr4sfm4dcmux9evu4xzxpujgzlavurmv5ysv7nflv",
+      "events": [
+        {
+          "identifier": "submitBatch",
+          "address": "erd1qqqqqqqqqqqqqpgqgkr4sfm4dcmux9evu4xzxpujgzlavurmv5ysv7nflv",
+          "topics": [
+            "bmV3X3ByaWNlX2V2ZW50",
+            "AAAABFdUQU8AAAADVVNE",
+            "Dx9Nh8SNdSrU",
+            "G+w="
+          ],
+          "additionalData": [
+            ""
+          ],
+          "order": 0
+        },
+        {
+          "identifier": "submitBatch",
+          "address": "erd1qqqqqqqqqqqqqpgqgkr4sfm4dcmux9evu4xzxpujgzlavurmv5ysv7nflv",
+          "topics": [
+            "bmV3X3N1Ym1pc3Npb25fZXZlbnQ=",
+            "AAAABFdUQU8AAAADVVNE",
+            "jDUSDyR/pyJ83EVUtz+OMjuDwnmXZFYZfMqtOV4HqYU=",
+            "DysY+NY8LsXY",
+            "G+w="
+          ],
+          "additionalData": [
+            ""
+          ],
+          "order": 1
+        },
+        {
+          "identifier": "completedTxEvent",
+          "address": "erd1qqqqqqqqqqqqqpgqgkr4sfm4dcmux9evu4xzxpujgzlavurmv5ysv7nflv",
+          "topics": [
+            "BBnFI3G26l5sSYW+ltqH3KKYlqGyxIVsGN3TZ2fesY8="
+          ],
+          "order": 2
+        }
+      ]
+    }
+}

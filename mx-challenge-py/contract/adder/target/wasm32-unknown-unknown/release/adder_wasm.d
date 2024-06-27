@@ -1,0 +1,1 @@
+/home/misu/python/mx-challenge-py/contract/adder/target/wasm32-unknown-unknown/release/adder_wasm.wasm: /home/misu/python/mx-challenge-py/contract/adder/src/adder.rs /home/misu/python/mx-challenge-py/contract/adder/src/adder_proxy.rs /home/misu/python/mx-challenge-py/contract/adder/wasm/src/lib.rs

@@ -1,0 +1,73 @@
+// Transaction Visualization
+digraph {
+	rankdir=TB
+	c6faf67c6655cae8114e4b86e4d8499108eed26bb868a1c0da6219aab2317381 [label="c6faf67c...b2317381 ( swapTokensFixedOutput ) " color=lightgrey shape=rectangle style=filled]
+	subgraph cluster_results {
+		node [color=darksalmon style=filled]
+		color=red
+		rankdir=TB
+		label="Smart Contract Results"
+		rank=same
+		"8c86eaeffcc66aa72d0fe883f9ac47a2d2e2be3c7b1b6fbdcc3966e27d7184fe" [label="8c86eaef...7d7184fe" shape=rectangle]
+		"631b9543a843089ae2c505090586199bc980a89dd446248bd938ad88e91865d3" [label="631b9543...e91865d3" shape=rectangle]
+		"8c86eaeffcc66aa72d0fe883f9ac47a2d2e2be3c7b1b6fbdcc3966e27d7184fe" -> "631b9543a843089ae2c505090586199bc980a89dd446248bd938ad88e91865d3" [style=invis]
+		a17d3c30858f08edecfcf7ef9f1078b4587119d18e2737f6c57171c6f3d72bec [label="a17d3c30...f3d72bec" shape=rectangle]
+		"631b9543a843089ae2c505090586199bc980a89dd446248bd938ad88e91865d3" -> a17d3c30858f08edecfcf7ef9f1078b4587119d18e2737f6c57171c6f3d72bec [style=invis]
+		"54c92bbebcb790b0b94d2d853a0f28f91e21bc9aa0b08b3689d9159f976517a4" [label="54c92bbe...976517a4" shape=rectangle]
+		a17d3c30858f08edecfcf7ef9f1078b4587119d18e2737f6c57171c6f3d72bec -> "54c92bbebcb790b0b94d2d853a0f28f91e21bc9aa0b08b3689d9159f976517a4" [style=invis]
+	}
+	subgraph cluster_addresses {
+		node [color=darkslategray1 style=filled]
+		color=blue
+		label=Addresses
+		rank=same
+		rankdir=TB
+		erd1wyv2d22yrt6l44kymjggcess72wgs5s2u54fsc0kqj02u2zl340s83mljv [label="erd1wyv2...0s83mljv" shape=rectangle]
+		erd1qqqqqqqqqqqqqpgqx6eg4kfqyw7ayktynn9wzhd6grv7p8542jpsj6y036 [label="erd1qqqq...psj6y036" shape=rectangle]
+		erd1qqqqqqqqqqqqqpgqa0fsfshnff4n76jhcye6k7uvd7qacsq42jpsp6shh2 [label="erd1qqqq...psp6shh2" shape=rectangle]
+	}
+	subgraph cluster_events {
+		node [color=darkslategray1 style=filled]
+		color=blue
+		label=Events
+		rank=same
+		E0 [label=ESDTTransfer shape=rectangle]
+		E1 [label=ESDTTransfer shape=rectangle]
+		E2 [label=ESDTLocalBurn shape=rectangle]
+		E3 [label=swapNoFeeAndForward shape=rectangle]
+		E4 [label=MultiESDTNFTTransfer shape=rectangle]
+		E4 [label=MultiESDTNFTTransfer shape=rectangle]
+		E6 [label=swapTokensFixedOutput shape=rectangle]
+		E7 [label=completedTxEvent shape=rectangle]
+	}
+	erd1wyv2d22yrt6l44kymjggcess72wgs5s2u54fsc0kqj02u2zl340s83mljv -> erd1qqqqqqqqqqqqqpgqx6eg4kfqyw7ayktynn9wzhd6grv7p8542jpsj6y036 [label="transfer :
+ 24628026477489271 WrappedEGLD"]
+	erd1qqqqqqqqqqqqqpgqx6eg4kfqyw7ayktynn9wzhd6grv7p8542jpsj6y036 -> erd1qqqqqqqqqqqqqpgqa0fsfshnff4n76jhcye6k7uvd7qacsq42jpsp6shh2 [label="transfer :
+ 12192092315588 WrappedEGLD"]
+	erd1qqqqqqqqqqqqqpgqa0fsfshnff4n76jhcye6k7uvd7qacsq42jpsp6shh2 -> erd1qqqqqqqqqqqqqpgqx6eg4kfqyw7ayktynn9wzhd6grv7p8542jpsj6y036 [label="localBurn :
+ 80715330115242730902 MEX"]
+	erd1qqqqqqqqqqqqqpgqx6eg4kfqyw7ayktynn9wzhd6grv7p8542jpsj6y036 -> erd1wyv2d22yrt6l44kymjggcess72wgs5s2u54fsc0kqj02u2zl340s83mljv [label="transfer :
+ 2000000 Ofero"]
+	erd1qqqqqqqqqqqqqpgqx6eg4kfqyw7ayktynn9wzhd6grv7p8542jpsj6y036 -> erd1wyv2d22yrt6l44kymjggcess72wgs5s2u54fsc0kqj02u2zl340s83mljv [label="transfer :
+ 243841846311774 WrappedEGLD"]
+	"8c86eaeffcc66aa72d0fe883f9ac47a2d2e2be3c7b1b6fbdcc3966e27d7184fe" -> c6faf67c6655cae8114e4b86e4d8499108eed26bb868a1c0da6219aab2317381
+	erd1qqqqqqqqqqqqqpgqx6eg4kfqyw7ayktynn9wzhd6grv7p8542jpsj6y036 -> "8c86eaeffcc66aa72d0fe883f9ac47a2d2e2be3c7b1b6fbdcc3966e27d7184fe"
+	"8c86eaeffcc66aa72d0fe883f9ac47a2d2e2be3c7b1b6fbdcc3966e27d7184fe" -> erd1wyv2d22yrt6l44kymjggcess72wgs5s2u54fsc0kqj02u2zl340s83mljv
+	"631b9543a843089ae2c505090586199bc980a89dd446248bd938ad88e91865d3" -> c6faf67c6655cae8114e4b86e4d8499108eed26bb868a1c0da6219aab2317381
+	erd1qqqqqqqqqqqqqpgqx6eg4kfqyw7ayktynn9wzhd6grv7p8542jpsj6y036 -> "631b9543a843089ae2c505090586199bc980a89dd446248bd938ad88e91865d3"
+	"631b9543a843089ae2c505090586199bc980a89dd446248bd938ad88e91865d3" -> erd1qqqqqqqqqqqqqpgqa0fsfshnff4n76jhcye6k7uvd7qacsq42jpsp6shh2
+	a17d3c30858f08edecfcf7ef9f1078b4587119d18e2737f6c57171c6f3d72bec -> c6faf67c6655cae8114e4b86e4d8499108eed26bb868a1c0da6219aab2317381
+	erd1wyv2d22yrt6l44kymjggcess72wgs5s2u54fsc0kqj02u2zl340s83mljv -> a17d3c30858f08edecfcf7ef9f1078b4587119d18e2737f6c57171c6f3d72bec
+	a17d3c30858f08edecfcf7ef9f1078b4587119d18e2737f6c57171c6f3d72bec -> erd1qqqqqqqqqqqqqpgqx6eg4kfqyw7ayktynn9wzhd6grv7p8542jpsj6y036
+	"54c92bbebcb790b0b94d2d853a0f28f91e21bc9aa0b08b3689d9159f976517a4" -> c6faf67c6655cae8114e4b86e4d8499108eed26bb868a1c0da6219aab2317381
+	erd1qqqqqqqqqqqqqpgqx6eg4kfqyw7ayktynn9wzhd6grv7p8542jpsj6y036 -> "54c92bbebcb790b0b94d2d853a0f28f91e21bc9aa0b08b3689d9159f976517a4"
+	"54c92bbebcb790b0b94d2d853a0f28f91e21bc9aa0b08b3689d9159f976517a4" -> erd1wyv2d22yrt6l44kymjggcess72wgs5s2u54fsc0kqj02u2zl340s83mljv
+	erd1wyv2d22yrt6l44kymjggcess72wgs5s2u54fsc0kqj02u2zl340s83mljv -> E0
+	erd1qqqqqqqqqqqqqpgqx6eg4kfqyw7ayktynn9wzhd6grv7p8542jpsj6y036 -> E1
+	erd1qqqqqqqqqqqqqpgqa0fsfshnff4n76jhcye6k7uvd7qacsq42jpsp6shh2 -> E2
+	erd1qqqqqqqqqqqqqpgqa0fsfshnff4n76jhcye6k7uvd7qacsq42jpsp6shh2 -> E3
+	erd1qqqqqqqqqqqqqpgqx6eg4kfqyw7ayktynn9wzhd6grv7p8542jpsj6y036 -> E4
+	erd1qqqqqqqqqqqqqpgqx6eg4kfqyw7ayktynn9wzhd6grv7p8542jpsj6y036 -> E4
+	erd1qqqqqqqqqqqqqpgqx6eg4kfqyw7ayktynn9wzhd6grv7p8542jpsj6y036 -> E6
+	erd1qqqqqqqqqqqqqpgqx6eg4kfqyw7ayktynn9wzhd6grv7p8542jpsj6y036 -> E7
+}

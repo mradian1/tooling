@@ -1,0 +1,13 @@
+[
+  "bigIntAdd",
+  "bigIntFinishUnsigned",
+  "bigIntGetUnsignedArgument",
+  "checkNoPayment",
+  "getNumArguments",
+  "mBufferFromBigIntUnsigned",
+  "mBufferSetBytes",
+  "mBufferStorageLoad",
+  "mBufferStorageStore",
+  "mBufferToBigIntUnsigned",
+  "signalError"
+]

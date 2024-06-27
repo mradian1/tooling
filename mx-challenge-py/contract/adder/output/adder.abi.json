@@ -1,0 +1,71 @@
+{
+    "buildInfo": {
+        "rustc": {
+            "version": "1.81.0-nightly",
+            "commitHash": "fda509e817abeeecb5b76bc1de844f355675c81e",
+            "commitDate": "2024-06-25",
+            "channel": "Nightly",
+            "short": "rustc 1.81.0-nightly (fda509e81 2024-06-25)"
+        },
+        "contractCrate": {
+            "name": "adder",
+            "version": "0.0.0"
+        },
+        "framework": {
+            "name": "multiversx-sc",
+            "version": "0.50.5"
+        }
+    },
+    "docs": [
+        "One of the simplest smart contracts possible,",
+        "it holds a single variable in storage, which anyone can increment."
+    ],
+    "name": "Adder",
+    "constructor": {
+        "inputs": [
+            {
+                "name": "initial_value",
+                "type": "BigUint"
+            }
+        ],
+        "outputs": []
+    },
+    "upgradeConstructor": {
+        "inputs": [
+            {
+                "name": "initial_value",
+                "type": "BigUint"
+            }
+        ],
+        "outputs": []
+    },
+    "endpoints": [
+        {
+            "name": "getSum",
+            "mutability": "readonly",
+            "inputs": [],
+            "outputs": [
+                {
+                    "type": "BigUint"
+                }
+            ]
+        },
+        {
+            "docs": [
+                "Add desired amount to the storage variable."
+            ],
+            "name": "add",
+            "mutability": "mutable",
+            "inputs": [
+                {
+                    "name": "value",
+                    "type": "BigUint"
+                }
+            ],
+            "outputs": []
+        }
+    ],
+    "esdtAttributes": [],
+    "hasCallback": false,
+    "types": {}
+}

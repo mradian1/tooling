@@ -1,0 +1,1 @@
+/home/misu/python/mx-challenge-py/contract/adder/target/debug/adder-meta: /home/misu/python/mx-challenge-py/contract/adder/meta/src/main.rs /home/misu/python/mx-challenge-py/contract/adder/src/adder.rs /home/misu/python/mx-challenge-py/contract/adder/src/adder_proxy.rs

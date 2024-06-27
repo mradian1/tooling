@@ -1,0 +1,87 @@
+{
+    "txHash": "6f572f8e770c5d74b24323f6d0df624e9bd8d23ed3ec5088f814ea6b6381e551",
+    "gasLimit": 12785746,
+    "gasPrice": 1000000000,
+    "gasUsed": 12176901,
+    "miniBlockHash": "c61eff7106e9906cd3d934d4a2ca375120dc64e842aa2e78d9aa5e3565c99011",
+    "nonce": 93852,
+    "receiver": "erd1qqqqqqqqqqqqqpgq9j5chyk8zmjgj4ez4x92x5jq2s8h56yren6sj8zhsj",
+    "receiverShard": 1,
+    "round": 4212822,
+    "sender": "erd1gpr403up2gs8any75pkjjf9t3p0hv6ry2hz4nmu8e35je4exq4gsar35pw",
+    "senderShard": 1,
+    "signature": "8659fbdc17661a0d9d7e57079033460f6f4e559cb8284108158ca6b76e1f5c53c15aa0c4d17e3257797c0f106adebdd89f8a1cb6382d4e2951baaf4debb1f403",
+    "status": "success",
+    "value": "0",
+    "fee": "1057814010000000",
+    "timestamp": 1719276932,
+    "data": "dXBkYXRlQDAyQDA0NTQ5MDhkN2VlZmFlODY3MGY3Y2RmZWJhZDY2YmQ5NjlhNzBjMDQyOGM3NGZkMzZmN2Q0YjQ4MjVjZWQ1ZGVAZmI2N2VlNGRhZjEwZmRkOGNlMzliNjQ1ZjJlNzhlN2Q0ZGM0Mzk2MjM0YWUyNjdhYTQ2ODFlMDBiOTExOTExMEAwMkAwMDAwMGUxMDY2N2ExNTdiMDAwMDAwMDQwNWUwYWI1MEAwMDAxNTE4MDY2N2ExNTdiMDAwMDAwMDRhZGEwZGE0MEAwMkA1MjY2YzBkMzg3NzIxY2EyMzFkZWI1ZWE4Y2EzMWQ1ZWJmMmU5ZGZmNjgzYzQxZDI5NjE4NTEyZjllMzExMWM5N2UyZmE5OWQ5ZjBmYzI1YWVjNTVhYTM0NzFiZWU1NmIzYTZiNjk3Mzc3NjNiY2Q4MzI1NzY3YmI5MzY4ZTVlOTNhZWQzZGRjMTc2MGU2ODA0NTU2N2ZjYzQ4NTY4Yzg3ODVlZTM3MmJhZTEwMmUxM2I4NGMzMjQ3YjViNjRjMDFAZTI1YmE0YWViMTg1MDA1MTdkMDE1YWFhODlkNDYzMmJmNzZjMjkwZjJlNTc3Njg1NjU0MGVkZDUwMzZiMzU3MDQ4ODFiOGM4YzFiMGVkMjAwNDY4YmRiNDEzZDA1MTE1NDI1OThmNDNlNTQxMmMzYWRjODg0YjcxNDQ3MzhkODRhYTk5ZjYxMDQyOWFjNWVjN2UxMTcxMWE0NDdjMDU0Y2U4YzRmYTE4Nzk0NzM0NzBiMzIwN2Q2MjBjYTlhMzBk",
+    "function": "update",
+    "action": {
+      "category": "scCall",
+      "name": "update"
+    },
+    "results": [
+      {
+        "hash": "e5e1605974b7b5e2609a486841c152ce9c8fe425ea97102579e07f457b6b016b",
+        "timestamp": 1719276932,
+        "nonce": 93853,
+        "gasLimit": 0,
+        "gasPrice": 1000000000,
+        "value": "6088450000000",
+        "sender": "erd1qqqqqqqqqqqqqpgq9j5chyk8zmjgj4ez4x92x5jq2s8h56yren6sj8zhsj",
+        "receiver": "erd1gpr403up2gs8any75pkjjf9t3p0hv6ry2hz4nmu8e35je4exq4gsar35pw",
+        "data": "QDZmNmI=",
+        "prevTxHash": "6f572f8e770c5d74b24323f6d0df624e9bd8d23ed3ec5088f814ea6b6381e551",
+        "originalTxHash": "6f572f8e770c5d74b24323f6d0df624e9bd8d23ed3ec5088f814ea6b6381e551",
+        "callType": "0",
+        "miniBlockHash": "f1fd6a7f190537f2e4a46afc130b1cc6f73af9ec07cf688984c72ebef833ec3c"
+      }
+    ],
+    "logs": {
+      "id": "6f572f8e770c5d74b24323f6d0df624e9bd8d23ed3ec5088f814ea6b6381e551",
+      "address": "erd1qqqqqqqqqqqqqpgq9j5chyk8zmjgj4ez4x92x5jq2s8h56yren6sj8zhsj",
+      "events": [
+        {
+          "identifier": "transferValueOnly",
+          "address": "erd1qqqqqqqqqqqqqpgq9j5chyk8zmjgj4ez4x92x5jq2s8h56yren6sj8zhsj",
+          "data": "RXhlY3V0ZU9uRGVzdENvbnRleHQ=",
+          "topics": [
+            "",
+            "AAAAAAAAAAAFAOEk/cCab+GRAkFWevX+XGIcHEUYzPU="
+          ],
+          "additionalData": [
+            "RXhlY3V0ZU9uRGVzdENvbnRleHQ=",
+            "dmVyaWZ5VmFsaWRhdG9ycw==",
+            "UmbA04dyHKIx3rXqjKMdXr8unf9oPEHSlhhRL54xEck=",
+            "4lukrrGFAFF9AVqqidRjK/dsKQ8uV3aFZUDt1QNrNXA="
+          ],
+          "order": 0
+        },
+        {
+          "identifier": "completedTxEvent",
+          "address": "erd1qqqqqqqqqqqqqpgq9j5chyk8zmjgj4ez4x92x5jq2s8h56yren6sj8zhsj",
+          "topics": [
+            "b1cvjncMXXSyQyP20N9iTpvY0j7T7FCI+BTqa2OB5VE="
+          ],
+          "order": 1
+        }
+      ]
+    },
+    "operations": [
+      {
+        "id": "6f572f8e770c5d74b24323f6d0df624e9bd8d23ed3ec5088f814ea6b6381e551",
+        "action": "transfer",
+        "type": "egld",
+        "sender": "erd1qqqqqqqqqqqqqpgq9j5chyk8zmjgj4ez4x92x5jq2s8h56yren6sj8zhsj",
+        "receiver": "erd1qqqqqqqqqqqqqpgquyj0msy6dlsezqjp2ea0tljuvgwpc3gcen6s8aqwdn",
+        "additionalData": [
+          "RXhlY3V0ZU9uRGVzdENvbnRleHQ=",
+          "dmVyaWZ5VmFsaWRhdG9ycw==",
+          "UmbA04dyHKIx3rXqjKMdXr8unf9oPEHSlhhRL54xEck=",
+          "4lukrrGFAFF9AVqqidRjK/dsKQ8uV3aFZUDt1QNrNXA="
+        ],
+        "value": "0"
+      }
+    ]
+}

@@ -1,0 +1,37 @@
+// Transaction Visualization
+digraph {
+	rankdir=TB
+	"0419c52371b6ea5e6c4985be96da87dca29896a1b2c4856c18ddd36767deb18f" [label="0419c523...67deb18f ( submitBatch ) " color=lightgrey shape=rectangle style=filled]
+	subgraph cluster_results {
+		node [color=darksalmon style=filled]
+		color=red
+		rankdir=TB
+		label="Smart Contract Results"
+		rank=same
+		db06225bec5c288f751a68c37eb15bcb51ca76fe56881a4031235880e3f6bda2 [label="db06225b...e3f6bda2" shape=rectangle]
+	}
+	subgraph cluster_addresses {
+		node [color=darkslategray1 style=filled]
+		color=blue
+		label=Addresses
+		rank=same
+		rankdir=TB
+		erd13s63yrey07njylxug42tw0uwxgac8snejaj9vxtue2knjhs84xzslmzcds [label="erd13s63...zslmzcds" shape=rectangle]
+		erd1qqqqqqqqqqqqqpgqgkr4sfm4dcmux9evu4xzxpujgzlavurmv5ysv7nflv [label="erd1qqqq...ysv7nflv" shape=rectangle]
+	}
+	subgraph cluster_events {
+		node [color=darkslategray1 style=filled]
+		color=blue
+		label=Events
+		rank=same
+		E0 [label=submitBatch shape=rectangle]
+		E0 [label=submitBatch shape=rectangle]
+		E2 [label=completedTxEvent shape=rectangle]
+	}
+	db06225bec5c288f751a68c37eb15bcb51ca76fe56881a4031235880e3f6bda2 -> "0419c52371b6ea5e6c4985be96da87dca29896a1b2c4856c18ddd36767deb18f"
+	erd1qqqqqqqqqqqqqpgqgkr4sfm4dcmux9evu4xzxpujgzlavurmv5ysv7nflv -> db06225bec5c288f751a68c37eb15bcb51ca76fe56881a4031235880e3f6bda2
+	db06225bec5c288f751a68c37eb15bcb51ca76fe56881a4031235880e3f6bda2 -> erd13s63yrey07njylxug42tw0uwxgac8snejaj9vxtue2knjhs84xzslmzcds
+	erd1qqqqqqqqqqqqqpgqgkr4sfm4dcmux9evu4xzxpujgzlavurmv5ysv7nflv -> E0
+	erd1qqqqqqqqqqqqqpgqgkr4sfm4dcmux9evu4xzxpujgzlavurmv5ysv7nflv -> E0
+	erd1qqqqqqqqqqqqqpgqgkr4sfm4dcmux9evu4xzxpujgzlavurmv5ysv7nflv -> E2
+}

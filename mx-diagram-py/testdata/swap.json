@@ -1,0 +1,484 @@
+{
+    "txHash": "c6faf67c6655cae8114e4b86e4d8499108eed26bb868a1c0da6219aab2317381",
+    "gasLimit": 25500000,
+    "gasPrice": 1000000000,
+    "gasUsed": 14765191,
+    "miniBlockHash": "42acd83437ee313d3f98bba0e76132d87bc85139adabf953cbe5fbd3681167dc",
+    "nonce": 30,
+    "receiver": "erd1qqqqqqqqqqqqqpgqx6eg4kfqyw7ayktynn9wzhd6grv7p8542jpsj6y036",
+    "receiverAssets": {
+        "name": "xExchange: OFE/WEGLD Liquidity Pool",
+        "tags": [
+            "xexchange",
+            "liquiditypool"
+        ],
+        "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.png",
+        "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.svg"
+    },
+    "receiverShard": 1,
+    "round": 17363099,
+    "sender": "erd1wyv2d22yrt6l44kymjggcess72wgs5s2u54fsc0kqj02u2zl340s83mljv",
+    "senderShard": 1,
+    "signature": "6beb71b09bc8357378a4295d5489707923e9098142434f0d5e108290c1d64750009313d807aadbb431ddd91a54efbd4c0daead898d36006044b1db32261db505",
+    "status": "success",
+    "value": "0",
+    "fee": "379806910000000",
+    "timestamp": 1700296194,
+    "data": "RVNEVFRyYW5zZmVyQDU3NDU0NzRjNDQyZDYyNjQzNDY0MzczOUA1NzdmMGY0MWI1YWM3N0A3Mzc3NjE3MDU0NmY2YjY1NmU3MzQ2Njk3ODY1NjQ0Zjc1NzQ3MDc1NzRANGY0NjQ1MmQzMjM5NjU2MjM1MzRAMWU4NDgw",
+    "function": "swapTokensFixedOutput",
+    "action": {
+        "category": "mex",
+        "name": "swap",
+        "description": "Swap a maximum of 0.024628026477489271 WEGLD for 200 OFE",
+        "arguments": {
+            "transfers": [
+                {
+                    "type": "FungibleESDT",
+                    "name": "WrappedEGLD",
+                    "ticker": "WEGLD",
+                    "svgUrl": "https://media.elrond.com/tokens/asset/WEGLD-bd4d79/logo.svg",
+                    "token": "WEGLD-bd4d79",
+                    "decimals": 18,
+                    "value": "24628026477489271"
+                },
+                {
+                    "type": "FungibleESDT",
+                    "name": "Ofero",
+                    "ticker": "OFE",
+                    "svgUrl": "https://media.elrond.com/tokens/asset/OFE-29eb54/logo.svg",
+                    "token": "OFE-29eb54",
+                    "decimals": 4,
+                    "value": "2000000"
+                }
+            ],
+            "receiver": "erd1qqqqqqqqqqqqqpgqx6eg4kfqyw7ayktynn9wzhd6grv7p8542jpsj6y036",
+            "functionName": "swapTokensFixedOutput",
+            "functionArgs": [
+                "4f46452d323965623534",
+                "1e8480"
+            ],
+            "receiverAssets": {
+                "name": "xExchange: OFE/WEGLD Liquidity Pool",
+                "tags": [
+                    "xexchange",
+                    "liquiditypool"
+                ],
+                "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.png",
+                "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.svg"
+            }
+        }
+    },
+    "results": [
+        {
+            "hash": "8c86eaeffcc66aa72d0fe883f9ac47a2d2e2be3c7b1b6fbdcc3966e27d7184fe",
+            "timestamp": 1700296194,
+            "nonce": 0,
+            "gasLimit": 0,
+            "gasPrice": 1000000000,
+            "value": "0",
+            "sender": "erd1qqqqqqqqqqqqqpgqx6eg4kfqyw7ayktynn9wzhd6grv7p8542jpsj6y036",
+            "receiver": "erd1wyv2d22yrt6l44kymjggcess72wgs5s2u54fsc0kqj02u2zl340s83mljv",
+            "senderAssets": {
+                "name": "xExchange: OFE/WEGLD Liquidity Pool",
+                "tags": [
+                    "xexchange",
+                    "liquiditypool"
+                ],
+                "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.png",
+                "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.svg"
+            },
+            "data": "TXVsdGlFU0RUTkZUVHJhbnNmZXJANzExOGE2YTk0NDFhZjVmYWQ2YzRkYzkwOGM2NjEwZjI5Yzg4NTIwYWU1MmE5ODYxZjYwNDllYWUyODVmOGQ1ZkAwMkA0ZjQ2NDUyZDMyMzk2NTYyMzUzNEBAMWU4NDgwQDU3NDU0NzRjNDQyZDYyNjQzNDY0MzczOUBAZGRjNWRhYTE3YjVl",
+            "prevTxHash": "c6faf67c6655cae8114e4b86e4d8499108eed26bb868a1c0da6219aab2317381",
+            "originalTxHash": "c6faf67c6655cae8114e4b86e4d8499108eed26bb868a1c0da6219aab2317381",
+            "callType": "0",
+            "function": "MultiESDTNFTTransfer"
+        },
+        {
+            "hash": "631b9543a843089ae2c505090586199bc980a89dd446248bd938ad88e91865d3",
+            "timestamp": 1700296194,
+            "nonce": 0,
+            "gasLimit": 0,
+            "gasPrice": 1000000000,
+            "value": "0",
+            "sender": "erd1qqqqqqqqqqqqqpgqx6eg4kfqyw7ayktynn9wzhd6grv7p8542jpsj6y036",
+            "receiver": "erd1qqqqqqqqqqqqqpgqa0fsfshnff4n76jhcye6k7uvd7qacsq42jpsp6shh2",
+            "senderAssets": {
+                "name": "xExchange: OFE/WEGLD Liquidity Pool",
+                "tags": [
+                    "xexchange",
+                    "liquiditypool"
+                ],
+                "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.png",
+                "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.svg"
+            },
+            "receiverAssets": {
+                "name": "xExchange: MEX/WEGLD Liquidity Pool",
+                "tags": [
+                    "xexchange",
+                    "liquiditypool"
+                ],
+                "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.png",
+                "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.svg"
+            },
+            "data": "RVNEVFRyYW5zZmVyQDU3NDU0NzRjNDQyZDYyNjQzNDY0MzczOUAwYjE2YjE1NGRmYzRANzM3NzYxNzA0ZTZmNDY2NTY1NDE2ZTY0NDY2ZjcyNzc2MTcyNjRANGQ0NTU4MmQzNDM1MzU2MzM1MzdAMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMA==",
+            "prevTxHash": "c6faf67c6655cae8114e4b86e4d8499108eed26bb868a1c0da6219aab2317381",
+            "originalTxHash": "c6faf67c6655cae8114e4b86e4d8499108eed26bb868a1c0da6219aab2317381",
+            "callType": "0",
+            "function": "swapNoFeeAndForward"
+        },
+        {
+            "hash": "a17d3c30858f08edecfcf7ef9f1078b4587119d18e2737f6c57171c6f3d72bec",
+            "timestamp": 1700296194,
+            "nonce": 0,
+            "gasLimit": 25065500,
+            "gasPrice": 1000000000,
+            "value": "0",
+            "sender": "erd1wyv2d22yrt6l44kymjggcess72wgs5s2u54fsc0kqj02u2zl340s83mljv",
+            "receiver": "erd1qqqqqqqqqqqqqpgqx6eg4kfqyw7ayktynn9wzhd6grv7p8542jpsj6y036",
+            "receiverAssets": {
+                "name": "xExchange: OFE/WEGLD Liquidity Pool",
+                "tags": [
+                    "xexchange",
+                    "liquiditypool"
+                ],
+                "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.png",
+                "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.svg"
+            },
+            "data": "c3dhcFRva2Vuc0ZpeGVkT3V0cHV0QDRmNDY0NTJkMzIzOTY1NjIzNTM0QDFlODQ4MA==",
+            "prevTxHash": "c6faf67c6655cae8114e4b86e4d8499108eed26bb868a1c0da6219aab2317381",
+            "originalTxHash": "c6faf67c6655cae8114e4b86e4d8499108eed26bb868a1c0da6219aab2317381",
+            "callType": "0",
+            "function": "swapTokensFixedOutput"
+        },
+        {
+            "hash": "54c92bbebcb790b0b94d2d853a0f28f91e21bc9aa0b08b3689d9159f976517a4",
+            "timestamp": 1700296194,
+            "nonce": 31,
+            "gasLimit": 0,
+            "gasPrice": 1000000000,
+            "value": "107348090000000",
+            "sender": "erd1qqqqqqqqqqqqqpgqx6eg4kfqyw7ayktynn9wzhd6grv7p8542jpsj6y036",
+            "receiver": "erd1wyv2d22yrt6l44kymjggcess72wgs5s2u54fsc0kqj02u2zl340s83mljv",
+            "senderAssets": {
+                "name": "xExchange: OFE/WEGLD Liquidity Pool",
+                "tags": [
+                    "xexchange",
+                    "liquiditypool"
+                ],
+                "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.png",
+                "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.svg"
+            },
+            "data": "QDZmNmJAMDAwMDAwMGE0ZjQ2NDUyZDMyMzk2NTYyMzUzNDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMzFlODQ4MEAwMDAwMDAwYzU3NDU0NzRjNDQyZDYyNjQzNDY0MzczOTAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwNmRkYzVkYWExN2I1ZQ==",
+            "prevTxHash": "c6faf67c6655cae8114e4b86e4d8499108eed26bb868a1c0da6219aab2317381",
+            "originalTxHash": "c6faf67c6655cae8114e4b86e4d8499108eed26bb868a1c0da6219aab2317381",
+            "callType": "0",
+            "function": "transfer"
+        }
+    ],
+    "price": 43.35,
+    "logs": {
+        "id": "c6faf67c6655cae8114e4b86e4d8499108eed26bb868a1c0da6219aab2317381",
+        "address": "erd1qqqqqqqqqqqqqpgqx6eg4kfqyw7ayktynn9wzhd6grv7p8542jpsj6y036",
+        "addressAssets": {
+            "name": "xExchange: OFE/WEGLD Liquidity Pool",
+            "tags": [
+                "xexchange",
+                "liquiditypool"
+            ],
+            "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.png",
+            "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.svg"
+        },
+        "events": [
+            {
+                "identifier": "ESDTTransfer",
+                "address": "erd1wyv2d22yrt6l44kymjggcess72wgs5s2u54fsc0kqj02u2zl340s83mljv",
+                "topics": [
+                    "V0VHTEQtYmQ0ZDc5",
+                    "",
+                    "V38PQbWsdw==",
+                    "AAAAAAAAAAAFADayitkgI73SWWScyuFdukDZ4J6VVIM="
+                ],
+                "order": 0
+            },
+            {
+                "identifier": "ESDTTransfer",
+                "address": "erd1qqqqqqqqqqqqqpgqx6eg4kfqyw7ayktynn9wzhd6grv7p8542jpsj6y036",
+                "topics": [
+                    "V0VHTEQtYmQ0ZDc5",
+                    "",
+                    "CxaxVN/E",
+                    "AAAAAAAAAAAFAOvTBMLzSms/alfBM6t7jG+B3EAVVIM="
+                ],
+                "order": 1,
+                "addressAssets": {
+                    "name": "xExchange: OFE/WEGLD Liquidity Pool",
+                    "tags": [
+                        "xexchange",
+                        "liquiditypool"
+                    ],
+                    "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.png",
+                    "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.svg"
+                }
+            },
+            {
+                "identifier": "ESDTLocalBurn",
+                "address": "erd1qqqqqqqqqqqqqpgqa0fsfshnff4n76jhcye6k7uvd7qacsq42jpsp6shh2",
+                "topics": [
+                    "TUVYLTQ1NWM1Nw==",
+                    "",
+                    "BGAmdRd3bqWW"
+                ],
+                "order": 2,
+                "addressAssets": {
+                    "name": "xExchange: MEX/WEGLD Liquidity Pool",
+                    "tags": [
+                        "xexchange",
+                        "liquiditypool"
+                    ],
+                    "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.png",
+                    "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.svg"
+                }
+            },
+            {
+                "identifier": "swapNoFeeAndForward",
+                "address": "erd1qqqqqqqqqqqqqpgqa0fsfshnff4n76jhcye6k7uvd7qacsq42jpsp6shh2",
+                "data": "AAAAAAAAAAAFADayitkgI73SWWScyuFdukDZ4J6VVIMAAAAMV0VHTEQtYmQ0ZDc5AAAABgsWsVTfxAAAAApNRVgtNDU1YzU3AAAACQRgJnUXd26llgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEIvwgAAAAAAAAEtQAAAABlWHYC",
+                "topics": [
+                    "c3dhcF9ub19mZWVfYW5kX2ZvcndhcmQ=",
+                    "TUVYLTQ1NWM1Nw==",
+                    "AAAAAAAAAAAFADayitkgI73SWWScyuFdukDZ4J6VVIM=",
+                    "BLU="
+                ],
+                "order": 3,
+                "addressAssets": {
+                    "name": "xExchange: MEX/WEGLD Liquidity Pool",
+                    "tags": [
+                        "xexchange",
+                        "liquiditypool"
+                    ],
+                    "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.png",
+                    "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.svg"
+                }
+            },
+            {
+                "identifier": "MultiESDTNFTTransfer",
+                "address": "erd1qqqqqqqqqqqqqpgqx6eg4kfqyw7ayktynn9wzhd6grv7p8542jpsj6y036",
+                "topics": [
+                    "T0ZFLTI5ZWI1NA==",
+                    "",
+                    "HoSA",
+                    "cRimqUQa9frWxNyQjGYQ8pyIUgrlKphh9gSerihfjV8="
+                ],
+                "order": 4,
+                "addressAssets": {
+                    "name": "xExchange: OFE/WEGLD Liquidity Pool",
+                    "tags": [
+                        "xexchange",
+                        "liquiditypool"
+                    ],
+                    "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.png",
+                    "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.svg"
+                }
+            },
+            {
+                "identifier": "MultiESDTNFTTransfer",
+                "address": "erd1qqqqqqqqqqqqqpgqx6eg4kfqyw7ayktynn9wzhd6grv7p8542jpsj6y036",
+                "topics": [
+                    "V0VHTEQtYmQ0ZDc5",
+                    "",
+                    "3cXaoXte",
+                    "cRimqUQa9frWxNyQjGYQ8pyIUgrlKphh9gSerihfjV8="
+                ],
+                "order": 5,
+                "addressAssets": {
+                    "name": "xExchange: OFE/WEGLD Liquidity Pool",
+                    "tags": [
+                        "xexchange",
+                        "liquiditypool"
+                    ],
+                    "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.png",
+                    "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.svg"
+                }
+            },
+            {
+                "identifier": "swapTokensFixedOutput",
+                "address": "erd1qqqqqqqqqqqqqpgqx6eg4kfqyw7ayktynn9wzhd6grv7p8542jpsj6y036",
+                "data": "cRimqUQa9frWxNyQjGYQ8pyIUgrlKphh9gSerihfjV8AAAAMV0VHTEQtYmQ0ZDc5AAAAB1ahSWcUMRkAAAAKT0ZFLTI5ZWI1NAAAAAMehIAAAAAGCxaxVN/EAAAACSQQBMjc5TfnkwAAAAUMvd/TuAAAAAABCL8IAAAAAAAABLUAAAAAZVh2Ag==",
+                "topics": [
+                    "c3dhcA==",
+                    "V0VHTEQtYmQ0ZDc5",
+                    "T0ZFLTI5ZWI1NA==",
+                    "cRimqUQa9frWxNyQjGYQ8pyIUgrlKphh9gSerihfjV8=",
+                    "BLU="
+                ],
+                "order": 6,
+                "addressAssets": {
+                    "name": "xExchange: OFE/WEGLD Liquidity Pool",
+                    "tags": [
+                        "xexchange",
+                        "liquiditypool"
+                    ],
+                    "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.png",
+                    "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.svg"
+                }
+            },
+            {
+                "identifier": "completedTxEvent",
+                "address": "erd1qqqqqqqqqqqqqpgqx6eg4kfqyw7ayktynn9wzhd6grv7p8542jpsj6y036",
+                "topics": [
+                    "xvr2fGZVyugRTkuG5NhJkQju0mu4aKHA2mIZqrIxc4E="
+                ],
+                "order": 7,
+                "addressAssets": {
+                    "name": "xExchange: OFE/WEGLD Liquidity Pool",
+                    "tags": [
+                        "xexchange",
+                        "liquiditypool"
+                    ],
+                    "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.png",
+                    "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.svg"
+                }
+            }
+        ]
+    },
+    "operations": [
+        {
+            "id": "c6faf67c6655cae8114e4b86e4d8499108eed26bb868a1c0da6219aab2317381",
+            "action": "transfer",
+            "type": "esdt",
+            "esdtType": "FungibleESDT",
+            "identifier": "WEGLD-bd4d79",
+            "ticker": "WEGLD",
+            "name": "WrappedEGLD",
+            "sender": "erd1wyv2d22yrt6l44kymjggcess72wgs5s2u54fsc0kqj02u2zl340s83mljv",
+            "receiver": "erd1qqqqqqqqqqqqqpgqx6eg4kfqyw7ayktynn9wzhd6grv7p8542jpsj6y036",
+            "value": "24628026477489271",
+            "decimals": 18,
+            "svgUrl": "https://media.elrond.com/tokens/asset/WEGLD-bd4d79/logo.svg",
+            "receiverAssets": {
+                "name": "xExchange: OFE/WEGLD Liquidity Pool",
+                "tags": [
+                    "xexchange",
+                    "liquiditypool"
+                ],
+                "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.png",
+                "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.svg"
+            },
+            "valueUSD": 1.0642760690716146
+        },
+        {
+            "id": "c6faf67c6655cae8114e4b86e4d8499108eed26bb868a1c0da6219aab2317381",
+            "action": "transfer",
+            "type": "esdt",
+            "esdtType": "FungibleESDT",
+            "identifier": "WEGLD-bd4d79",
+            "ticker": "WEGLD",
+            "name": "WrappedEGLD",
+            "sender": "erd1qqqqqqqqqqqqqpgqx6eg4kfqyw7ayktynn9wzhd6grv7p8542jpsj6y036",
+            "receiver": "erd1qqqqqqqqqqqqqpgqa0fsfshnff4n76jhcye6k7uvd7qacsq42jpsp6shh2",
+            "value": "12192092315588",
+            "decimals": 18,
+            "svgUrl": "https://media.elrond.com/tokens/asset/WEGLD-bd4d79/logo.svg",
+            "senderAssets": {
+                "name": "xExchange: OFE/WEGLD Liquidity Pool",
+                "tags": [
+                    "xexchange",
+                    "liquiditypool"
+                ],
+                "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.png",
+                "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.svg"
+            },
+            "receiverAssets": {
+                "name": "xExchange: MEX/WEGLD Liquidity Pool",
+                "tags": [
+                    "xexchange",
+                    "liquiditypool"
+                ],
+                "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.png",
+                "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.svg"
+            },
+            "valueUSD": 0.0005268693411245294
+        },
+        {
+            "id": "c6faf67c6655cae8114e4b86e4d8499108eed26bb868a1c0da6219aab2317381",
+            "action": "localBurn",
+            "type": "esdt",
+            "esdtType": "FungibleESDT",
+            "identifier": "MEX-455c57",
+            "ticker": "MEX",
+            "name": "MEX",
+            "sender": "erd1qqqqqqqqqqqqqpgqa0fsfshnff4n76jhcye6k7uvd7qacsq42jpsp6shh2",
+            "receiver": "erd1qqqqqqqqqqqqqpgqx6eg4kfqyw7ayktynn9wzhd6grv7p8542jpsj6y036",
+            "value": "80715330115242730902",
+            "decimals": 18,
+            "svgUrl": "https://media.elrond.com/tokens/asset/MEX-455c57/logo.svg",
+            "senderAssets": {
+                "name": "xExchange: MEX/WEGLD Liquidity Pool",
+                "tags": [
+                    "xexchange",
+                    "liquiditypool"
+                ],
+                "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.png",
+                "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.svg"
+            },
+            "receiverAssets": {
+                "name": "xExchange: OFE/WEGLD Liquidity Pool",
+                "tags": [
+                    "xexchange",
+                    "liquiditypool"
+                ],
+                "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.png",
+                "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.svg"
+            },
+            "valueUSD": 0.0005260551556047613
+        },
+        {
+            "id": "c6faf67c6655cae8114e4b86e4d8499108eed26bb868a1c0da6219aab2317381",
+            "action": "transfer",
+            "type": "esdt",
+            "esdtType": "FungibleESDT",
+            "identifier": "OFE-29eb54",
+            "ticker": "OFE",
+            "name": "Ofero",
+            "sender": "erd1qqqqqqqqqqqqqpgqx6eg4kfqyw7ayktynn9wzhd6grv7p8542jpsj6y036",
+            "receiver": "erd1wyv2d22yrt6l44kymjggcess72wgs5s2u54fsc0kqj02u2zl340s83mljv",
+            "value": "2000000",
+            "decimals": 4,
+            "svgUrl": "https://media.elrond.com/tokens/asset/OFE-29eb54/logo.svg",
+            "senderAssets": {
+                "name": "xExchange: OFE/WEGLD Liquidity Pool",
+                "tags": [
+                    "xexchange",
+                    "liquiditypool"
+                ],
+                "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.png",
+                "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.svg"
+            },
+            "valueUSD": 1.0744210240960748
+        },
+        {
+            "id": "c6faf67c6655cae8114e4b86e4d8499108eed26bb868a1c0da6219aab2317381",
+            "action": "transfer",
+            "type": "esdt",
+            "esdtType": "FungibleESDT",
+            "identifier": "WEGLD-bd4d79",
+            "ticker": "WEGLD",
+            "name": "WrappedEGLD",
+            "sender": "erd1qqqqqqqqqqqqqpgqx6eg4kfqyw7ayktynn9wzhd6grv7p8542jpsj6y036",
+            "receiver": "erd1wyv2d22yrt6l44kymjggcess72wgs5s2u54fsc0kqj02u2zl340s83mljv",
+            "value": "243841846311774",
+            "decimals": 18,
+            "svgUrl": "https://media.elrond.com/tokens/asset/WEGLD-bd4d79/logo.svg",
+            "senderAssets": {
+                "name": "xExchange: OFE/WEGLD Liquidity Pool",
+                "tags": [
+                    "xexchange",
+                    "liquiditypool"
+                ],
+                "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.png",
+                "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.svg"
+            },
+            "valueUSD": 0.010537386822491192
+        }
+    ]
+}

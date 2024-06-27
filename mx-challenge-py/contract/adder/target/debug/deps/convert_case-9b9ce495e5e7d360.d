@@ -1,0 +1,11 @@
+/home/misu/python/mx-challenge-py/contract/adder/target/debug/deps/libconvert_case-9b9ce495e5e7d360.rmeta: /home/misu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/convert_case-0.6.0/src/lib.rs /home/misu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/convert_case-0.6.0/src/case.rs /home/misu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/convert_case-0.6.0/src/converter.rs /home/misu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/convert_case-0.6.0/src/pattern.rs /home/misu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/convert_case-0.6.0/src/segmentation.rs
+
+/home/misu/python/mx-challenge-py/contract/adder/target/debug/deps/libconvert_case-9b9ce495e5e7d360.rlib: /home/misu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/convert_case-0.6.0/src/lib.rs /home/misu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/convert_case-0.6.0/src/case.rs /home/misu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/convert_case-0.6.0/src/converter.rs /home/misu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/convert_case-0.6.0/src/pattern.rs /home/misu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/convert_case-0.6.0/src/segmentation.rs
+
+/home/misu/python/mx-challenge-py/contract/adder/target/debug/deps/convert_case-9b9ce495e5e7d360.d: /home/misu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/convert_case-0.6.0/src/lib.rs /home/misu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/convert_case-0.6.0/src/case.rs /home/misu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/convert_case-0.6.0/src/converter.rs /home/misu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/convert_case-0.6.0/src/pattern.rs /home/misu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/convert_case-0.6.0/src/segmentation.rs
+
+/home/misu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/convert_case-0.6.0/src/lib.rs:
+/home/misu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/convert_case-0.6.0/src/case.rs:
+/home/misu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/convert_case-0.6.0/src/converter.rs:
+/home/misu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/convert_case-0.6.0/src/pattern.rs:
+/home/misu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/convert_case-0.6.0/src/segmentation.rs:

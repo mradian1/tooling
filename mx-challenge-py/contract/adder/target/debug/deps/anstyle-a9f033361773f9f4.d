@@ -1,0 +1,12 @@
+/home/misu/python/mx-challenge-py/contract/adder/target/debug/deps/libanstyle-a9f033361773f9f4.rmeta: /home/misu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anstyle-1.0.7/src/lib.rs /home/misu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anstyle-1.0.7/src/macros.rs /home/misu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anstyle-1.0.7/src/color.rs /home/misu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anstyle-1.0.7/src/effect.rs /home/misu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anstyle-1.0.7/src/reset.rs /home/misu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anstyle-1.0.7/src/style.rs
+
+/home/misu/python/mx-challenge-py/contract/adder/target/debug/deps/libanstyle-a9f033361773f9f4.rlib: /home/misu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anstyle-1.0.7/src/lib.rs /home/misu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anstyle-1.0.7/src/macros.rs /home/misu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anstyle-1.0.7/src/color.rs /home/misu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anstyle-1.0.7/src/effect.rs /home/misu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anstyle-1.0.7/src/reset.rs /home/misu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anstyle-1.0.7/src/style.rs
+
+/home/misu/python/mx-challenge-py/contract/adder/target/debug/deps/anstyle-a9f033361773f9f4.d: /home/misu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anstyle-1.0.7/src/lib.rs /home/misu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anstyle-1.0.7/src/macros.rs /home/misu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anstyle-1.0.7/src/color.rs /home/misu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anstyle-1.0.7/src/effect.rs /home/misu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anstyle-1.0.7/src/reset.rs /home/misu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anstyle-1.0.7/src/style.rs
+
+/home/misu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anstyle-1.0.7/src/lib.rs:
+/home/misu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anstyle-1.0.7/src/macros.rs:
+/home/misu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anstyle-1.0.7/src/color.rs:
+/home/misu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anstyle-1.0.7/src/effect.rs:
+/home/misu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anstyle-1.0.7/src/reset.rs:
+/home/misu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anstyle-1.0.7/src/style.rs:

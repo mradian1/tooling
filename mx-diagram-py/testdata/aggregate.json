@@ -1,0 +1,1746 @@
+{
+    "txHash": "2864dedd4b536d70280d055f6a7b19b3e78360d476ba1beed977c322a2022d5c",
+    "gasLimit": 60000000,
+    "gasPrice": 1000000000,
+    "gasUsed": 52087443,
+    "miniBlockHash": "693e218e80ca34828c4247c4f59f00318bd0d749cd2df062dbd827159cdf0fbc",
+    "nonce": 752,
+    "receiver": "erd1qqqqqqqqqqqqqpgqcc69ts8409p3h77q5chsaqz57y6hugvc4fvs64k74v",
+    "receiverAssets": {
+        "name": "AshSwap: Aggregator v2",
+        "social": {
+            "website": "https://ashswap.io",
+            "email": "hello@ashswap.io",
+            "blog": "https://medium.com/@ashswap",
+            "twitter": "https://twitter.com/ash_swap",
+            "telegram": "https://t.me/ash_swap",
+            "discord": "https://discord.gg/apmhYCPDbW",
+            "facebook": "https://www.facebook.com/ashswap.io",
+            "commmunity": "https://egld.community/projects/ashswap"
+        },
+        "tags": [
+            "ashswap",
+            "swap",
+            "aggregator",
+            "dexaggregator"
+        ],
+        "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/ashswap.png",
+        "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/ashswap.svg"
+    },
+    "receiverShard": 1,
+    "round": 20475315,
+    "sender": "erd19dw6qeqyvn5ft7rqfzcds587j6u26n88kwkp0n0unnz7h2h6ds8qfpjmch",
+    "senderAssets": {
+        "name": "laurentpecyna.elrond",
+        "tags": [
+            "dns",
+            "username"
+        ]
+    },
+    "senderShard": 2,
+    "signature": "329b99ac112d798246c57a967aa52d190e64d37d39326bb984319b653716c2f376b1f3b74e74a0a6e13c0a45317522fad7707d93d93cef32570ba6018372900f",
+    "status": "success",
+    "value": "0",
+    "fee": "1694519430000000",
+    "timestamp": 1718969490,
+    "data": "RVNEVFRyYW5zZmVyQDVhNTA0MTU5MmQzMjM0MzczODM3MzVAMDE1M2E2ZWVmZTEzMDkwMDAwQDYxNjc2NzcyNjU2NzYxNzQ2NTQ1NzM2NDc0QDAwMDAwMDBiNWE1MDQxNTkyZDMyMzQzNzM4MzczNTAwMDAwMDBjNTc0NTQ3NGM0NDJkNjI2NDM0NjQzNzM5MDAwMDAwMDkwMTUyY2Q4ZTY1MWU4MWYwMDAwMDAwMDAwMDAwMDAwMDAwMDUwMDVjYWY3ODU0Yjc3ODE1M2M3ZGJhYWZlMmJiYWVkZTg3ODljNzU3Y2M1NDgzMDAwMDAwMTQ3Mzc3NjE3MDU0NmY2YjY1NmU3MzQ2Njk3ODY1NjQ0OTZlNzA3NTc0MDAwMDAwMDIwMDAwMDAwYzU3NDU0NzRjNDQyZDYyNjQzNDY0MzczOTAwMDAwMDAxMDEwMDAwMDAwYzU3NDU0NzRjNDQyZDYyNjQzNDY0MzczOTAwMDAwMDBiNTc0NTU0NDgyZDYyMzQ2MzYxMzIzOTAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA1MDA1YmY5OWI0NmI1Yjc3MjMxZDUwOTJhMTQzM2ZkZTlhZmNlNDQxMmZkNTQ4MzAwMDAwMDE0NzM3NzYxNzA1NDZmNmI2NTZlNzM0NjY5Nzg2NTY0NDk2ZTcwNzU3NDAwMDAwMDAyMDAwMDAwMGI1NzQ1NTQ0ODJkNjIzNDYzNjEzMjM5MDAwMDAwMDEwMUAwMDAwMDAwYjVhNTA0MTU5MmQzMjM0MzczODM3MzUwMDAwMDAwMDAwMDAwMDBjNTc0NTQ3NGM0NDJkNjI2NDM0NjQzNzM5MDAwMDAwMDAwMDAwMDAwYjU3NDU1NDQ4MmQ2MjM0NjM2MTMyMzkwMDAwMDAwNjMyOGFiYTFkMDU2NkBAZWE1NDhkNWNkOGJhY2EzZDExMzlhNzJkYWYzODBhYjAwYjc1ZWQwZDFlYmZmNDMwYzRlMmMwNDI4OGM2YTcwMQ==",
+    "function": "aggregateEsdt",
+    "action": {
+        "category": "esdtNft",
+        "name": "transfer",
+        "description": "Transfer",
+        "arguments": {
+            "transfers": [
+                {
+                    "type": "FungibleESDT",
+                    "name": "ZoidPay",
+                    "ticker": "ZPAY",
+                    "svgUrl": "https://media.elrond.com/tokens/asset/ZPAY-247875/logo.svg",
+                    "token": "ZPAY-247875",
+                    "decimals": 18,
+                    "value": "24474512000000000000"
+                }
+            ],
+            "receiver": "erd1qqqqqqqqqqqqqpgqcc69ts8409p3h77q5chsaqz57y6hugvc4fvs64k74v",
+            "functionName": "aggregateEsdt",
+            "functionArgs": [
+                "0000000b5a5041592d3234373837350000000c5745474c442d626434643739000000090152cd8e651e81f000000000000000000005005caf7854b778153c7dbaafe2bbaede8789c757cc54830000001473776170546f6b656e734669786564496e707574000000020000000c5745474c442d62643464373900000001010000000c5745474c442d6264346437390000000b574554482d62346361323900000000000000000000000005005bf99b46b5b77231d5092a1433fde9afce4412fd54830000001473776170546f6b656e734669786564496e707574000000020000000b574554482d6234636132390000000101",
+                "0000000b5a5041592d323437383735000000000000000c5745474c442d626434643739000000000000000b574554482d62346361323900000006328aba1d0566",
+                "",
+                "ea548d5cd8baca3d1139a72daf380ab00b75ed0d1ebff430c4e2c04288c6a701"
+            ],
+            "receiverAssets": {
+                "name": "AshSwap: Aggregator v2",
+                "social": {
+                    "website": "https://ashswap.io",
+                    "email": "hello@ashswap.io",
+                    "blog": "https://medium.com/@ashswap",
+                    "twitter": "https://twitter.com/ash_swap",
+                    "telegram": "https://t.me/ash_swap",
+                    "discord": "https://discord.gg/apmhYCPDbW",
+                    "facebook": "https://www.facebook.com/ashswap.io",
+                    "commmunity": "https://egld.community/projects/ashswap"
+                },
+                "tags": [
+                    "ashswap",
+                    "swap",
+                    "aggregator",
+                    "dexaggregator"
+                ],
+                "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/ashswap.png",
+                "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/ashswap.svg"
+            }
+        }
+    },
+    "results": [
+        {
+            "hash": "acd043545d71c4c10d2f2251977221b5d9111fa1dbc4954776f9f7003892d5b8",
+            "timestamp": 1718969490,
+            "nonce": 0,
+            "gasLimit": 0,
+            "gasPrice": 1000000000,
+            "value": "0",
+            "sender": "erd1qqqqqqqqqqqqqpgqcc69ts8409p3h77q5chsaqz57y6hugvc4fvs64k74v",
+            "receiver": "erd1qqqqqqqqqqqqqpgqtjhhs49h0q2ncld64l3thtk7s7yuw47v2jps8emt0v",
+            "senderAssets": {
+                "name": "AshSwap: Aggregator v2",
+                "social": {
+                    "website": "https://ashswap.io",
+                    "email": "hello@ashswap.io",
+                    "blog": "https://medium.com/@ashswap",
+                    "twitter": "https://twitter.com/ash_swap",
+                    "telegram": "https://t.me/ash_swap",
+                    "discord": "https://discord.gg/apmhYCPDbW",
+                    "facebook": "https://www.facebook.com/ashswap.io",
+                    "commmunity": "https://egld.community/projects/ashswap"
+                },
+                "tags": [
+                    "ashswap",
+                    "swap",
+                    "aggregator",
+                    "dexaggregator"
+                ],
+                "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/ashswap.png",
+                "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/ashswap.svg"
+            },
+            "receiverAssets": {
+                "name": "xExchange: ZPAY/WEGLD Liquidity Pool",
+                "tags": [
+                    "xexchange",
+                    "liquiditypool"
+                ],
+                "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.png",
+                "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.svg"
+            },
+            "data": "RVNEVFRyYW5zZmVyQDVhNTA0MTU5MmQzMjM0MzczODM3MzVAMDE1MmNkOGU2NTFlODFmMDAwQDczNzc2MTcwNTQ2ZjZiNjU2ZTczNDY2OTc4NjU2NDQ5NmU3MDc1NzRANTc0NTQ3NGM0NDJkNjI2NDM0NjQzNzM5QDAx",
+            "prevTxHash": "2864dedd4b536d70280d055f6a7b19b3e78360d476ba1beed977c322a2022d5c",
+            "originalTxHash": "2864dedd4b536d70280d055f6a7b19b3e78360d476ba1beed977c322a2022d5c",
+            "callType": "0",
+            "miniBlockHash": "570acd0e316507429359e2cfc02d7e3414a1fad56f35a873d0b70e6aa721c5c0",
+            "function": "swapTokensFixedInput"
+        },
+        {
+            "hash": "225cbc085eba89ed1836583964c00e516fd992270c17b161a6bbe998192927d7",
+            "timestamp": 1718969490,
+            "nonce": 1,
+            "gasLimit": 0,
+            "gasPrice": 1000000000,
+            "value": "0",
+            "sender": "erd1qqqqqqqqqqqqqpgqt0uek344kaerr4gf9g2r8l0f4l8ygyha2jps82u9r6",
+            "receiver": "erd1qqqqqqqqqqqqqpgqjsnxqprks7qxfwkcg2m2v9hxkrchgm9akp2segrswt",
+            "senderAssets": {
+                "name": "xExchange: WETH/WEGLD Liquidity Pool",
+                "tags": [
+                    "xexchange",
+                    "liquiditypool"
+                ],
+                "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.png",
+                "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.svg"
+            },
+            "receiverAssets": {
+                "name": "xExchange: Fees Collector",
+                "social": {
+                    "website": "https://xexchange.com",
+                    "twitter": "https://twitter.com/xExchangeApp",
+                    "telegram": "https://t.me/xExchangeApp",
+                    "blog": "https://multiversx.com/blog/maiar-exchange-mex-tokenomics"
+                },
+                "tags": [
+                    "xexchange",
+                    "energy",
+                    "fees",
+                    "collector"
+                ],
+                "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.png",
+                "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.svg"
+            },
+            "data": "RVNEVFRyYW5zZmVyQDU3NDU0NzRjNDQyZDYyNjQzNDY0MzczOUAwMzEzM2MzYWZhNmNANjQ2NTcwNmY3MzY5NzQ1Mzc3NjE3MDQ2NjU2NTcz",
+            "prevTxHash": "2864dedd4b536d70280d055f6a7b19b3e78360d476ba1beed977c322a2022d5c",
+            "originalTxHash": "2864dedd4b536d70280d055f6a7b19b3e78360d476ba1beed977c322a2022d5c",
+            "callType": "0",
+            "miniBlockHash": "570acd0e316507429359e2cfc02d7e3414a1fad56f35a873d0b70e6aa721c5c0",
+            "function": "depositSwapFees"
+        },
+        {
+            "hash": "27516e03940166d630cb3b326cab25298a15a0a06afab3b4c71b66194eccc6f5",
+            "timestamp": 1718969490,
+            "nonce": 0,
+            "gasLimit": 58614500,
+            "gasPrice": 1000000000,
+            "value": "0",
+            "sender": "erd1qqqqqqqqqqqqqpgqcc69ts8409p3h77q5chsaqz57y6hugvc4fvs64k74v",
+            "receiver": "erd1qqqqqqqqqqqqqpgqcc69ts8409p3h77q5chsaqz57y6hugvc4fvs64k74v",
+            "senderAssets": {
+                "name": "AshSwap: Aggregator v2",
+                "social": {
+                    "website": "https://ashswap.io",
+                    "email": "hello@ashswap.io",
+                    "blog": "https://medium.com/@ashswap",
+                    "twitter": "https://twitter.com/ash_swap",
+                    "telegram": "https://t.me/ash_swap",
+                    "discord": "https://discord.gg/apmhYCPDbW",
+                    "facebook": "https://www.facebook.com/ashswap.io",
+                    "commmunity": "https://egld.community/projects/ashswap"
+                },
+                "tags": [
+                    "ashswap",
+                    "swap",
+                    "aggregator",
+                    "dexaggregator"
+                ],
+                "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/ashswap.png",
+                "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/ashswap.svg"
+            },
+            "receiverAssets": {
+                "name": "AshSwap: Aggregator v2",
+                "social": {
+                    "website": "https://ashswap.io",
+                    "email": "hello@ashswap.io",
+                    "blog": "https://medium.com/@ashswap",
+                    "twitter": "https://twitter.com/ash_swap",
+                    "telegram": "https://t.me/ash_swap",
+                    "discord": "https://discord.gg/apmhYCPDbW",
+                    "facebook": "https://www.facebook.com/ashswap.io",
+                    "commmunity": "https://egld.community/projects/ashswap"
+                },
+                "tags": [
+                    "ashswap",
+                    "swap",
+                    "aggregator",
+                    "dexaggregator"
+                ],
+                "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/ashswap.png",
+                "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/ashswap.svg"
+            },
+            "data": "YWdncmVnYXRlRXNkdEAwMDAwMDAwYjVhNTA0MTU5MmQzMjM0MzczODM3MzUwMDAwMDAwYzU3NDU0NzRjNDQyZDYyNjQzNDY0MzczOTAwMDAwMDA5MDE1MmNkOGU2NTFlODFmMDAwMDAwMDAwMDAwMDAwMDAwMDA1MDA1Y2FmNzg1NGI3NzgxNTNjN2RiYWFmZTJiYmFlZGU4Nzg5Yzc1N2NjNTQ4MzAwMDAwMDE0NzM3NzYxNzA1NDZmNmI2NTZlNzM0NjY5Nzg2NTY0NDk2ZTcwNzU3NDAwMDAwMDAyMDAwMDAwMGM1NzQ1NDc0YzQ0MmQ2MjY0MzQ2NDM3MzkwMDAwMDAwMTAxMDAwMDAwMGM1NzQ1NDc0YzQ0MmQ2MjY0MzQ2NDM3MzkwMDAwMDAwYjU3NDU1NDQ4MmQ2MjM0NjM2MTMyMzkwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwNTAwNWJmOTliNDZiNWI3NzIzMWQ1MDkyYTE0MzNmZGU5YWZjZTQ0MTJmZDU0ODMwMDAwMDAxNDczNzc2MTcwNTQ2ZjZiNjU2ZTczNDY2OTc4NjU2NDQ5NmU3MDc1NzQwMDAwMDAwMjAwMDAwMDBiNTc0NTU0NDgyZDYyMzQ2MzYxMzIzOTAwMDAwMDAxMDFAMDAwMDAwMGI1YTUwNDE1OTJkMzIzNDM3MzgzNzM1MDAwMDAwMDAwMDAwMDAwYzU3NDU0NzRjNDQyZDYyNjQzNDY0MzczOTAwMDAwMDAwMDAwMDAwMGI1NzQ1NTQ0ODJkNjIzNDYzNjEzMjM5MDAwMDAwMDYzMjhhYmExZDA1NjZAQGVhNTQ4ZDVjZDhiYWNhM2QxMTM5YTcyZGFmMzgwYWIwMGI3NWVkMGQxZWJmZjQzMGM0ZTJjMDQyODhjNmE3MDE=",
+            "prevTxHash": "2864dedd4b536d70280d055f6a7b19b3e78360d476ba1beed977c322a2022d5c",
+            "originalTxHash": "2864dedd4b536d70280d055f6a7b19b3e78360d476ba1beed977c322a2022d5c",
+            "callType": "0",
+            "miniBlockHash": "570acd0e316507429359e2cfc02d7e3414a1fad56f35a873d0b70e6aa721c5c0",
+            "function": "aggregateEsdt"
+        },
+        {
+            "hash": "520a6b98594f9501760ef6e6c8838ed96fb4ae25def0b51677e23771847da1d9",
+            "timestamp": 1718969490,
+            "nonce": 0,
+            "gasLimit": 0,
+            "gasPrice": 1000000000,
+            "value": "0",
+            "sender": "erd1qqqqqqqqqqqqqpgqtjhhs49h0q2ncld64l3thtk7s7yuw47v2jps8emt0v",
+            "receiver": "erd1qqqqqqqqqqqqqpgqcc69ts8409p3h77q5chsaqz57y6hugvc4fvs64k74v",
+            "senderAssets": {
+                "name": "xExchange: ZPAY/WEGLD Liquidity Pool",
+                "tags": [
+                    "xexchange",
+                    "liquiditypool"
+                ],
+                "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.png",
+                "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.svg"
+            },
+            "receiverAssets": {
+                "name": "AshSwap: Aggregator v2",
+                "social": {
+                    "website": "https://ashswap.io",
+                    "email": "hello@ashswap.io",
+                    "blog": "https://medium.com/@ashswap",
+                    "twitter": "https://twitter.com/ash_swap",
+                    "telegram": "https://t.me/ash_swap",
+                    "discord": "https://discord.gg/apmhYCPDbW",
+                    "facebook": "https://www.facebook.com/ashswap.io",
+                    "commmunity": "https://egld.community/projects/ashswap"
+                },
+                "tags": [
+                    "ashswap",
+                    "swap",
+                    "aggregator",
+                    "dexaggregator"
+                ],
+                "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/ashswap.png",
+                "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/ashswap.svg"
+            },
+            "data": "RVNEVFRyYW5zZmVyQDU3NDU0NzRjNDQyZDYyNjQzNDY0MzczOUAxODA2NDY4Y2M0NzBiNw==",
+            "prevTxHash": "2864dedd4b536d70280d055f6a7b19b3e78360d476ba1beed977c322a2022d5c",
+            "originalTxHash": "2864dedd4b536d70280d055f6a7b19b3e78360d476ba1beed977c322a2022d5c",
+            "callType": "0",
+            "miniBlockHash": "570acd0e316507429359e2cfc02d7e3414a1fad56f35a873d0b70e6aa721c5c0",
+            "function": "ESDTTransfer"
+        },
+        {
+            "hash": "ca36d786f389ea7f174b1cd1021a6dd6af4aabc4d535e84fbd0571fd1332caff",
+            "timestamp": 1718969490,
+            "nonce": 0,
+            "gasLimit": 0,
+            "gasPrice": 1000000000,
+            "value": "0",
+            "sender": "erd1qqqqqqqqqqqqqpgqtjhhs49h0q2ncld64l3thtk7s7yuw47v2jps8emt0v",
+            "receiver": "erd1qqqqqqqqqqqqqpgqa0fsfshnff4n76jhcye6k7uvd7qacsq42jpsp6shh2",
+            "senderAssets": {
+                "name": "xExchange: ZPAY/WEGLD Liquidity Pool",
+                "tags": [
+                    "xexchange",
+                    "liquiditypool"
+                ],
+                "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.png",
+                "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.svg"
+            },
+            "receiverAssets": {
+                "name": "xExchange: MEX/WEGLD Liquidity Pool",
+                "tags": [
+                    "xexchange",
+                    "liquiditypool"
+                ],
+                "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.png",
+                "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.svg"
+            },
+            "data": "RVNEVFRyYW5zZmVyQDU3NDU0NzRjNDQyZDYyNjQzNDY0MzczOUAwMzE1OWE3MGNmYWRANzM3NzYxNzA0ZTZmNDY2NTY1NDE2ZTY0NDY2ZjcyNzc2MTcyNjRANGQ0NTU4MmQzNDM1MzU2MzM1MzdAMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMA==",
+            "prevTxHash": "2864dedd4b536d70280d055f6a7b19b3e78360d476ba1beed977c322a2022d5c",
+            "originalTxHash": "2864dedd4b536d70280d055f6a7b19b3e78360d476ba1beed977c322a2022d5c",
+            "callType": "0",
+            "miniBlockHash": "570acd0e316507429359e2cfc02d7e3414a1fad56f35a873d0b70e6aa721c5c0",
+            "function": "swapNoFeeAndForward"
+        },
+        {
+            "hash": "4c60cfbbe8ff953d367795dd7cc33274accabf9e166483bac2844fad564cf772",
+            "timestamp": 1718969490,
+            "nonce": 1,
+            "gasLimit": 0,
+            "gasPrice": 1000000000,
+            "value": "0",
+            "sender": "erd1qqqqqqqqqqqqqpgqt0uek344kaerr4gf9g2r8l0f4l8ygyha2jps82u9r6",
+            "receiver": "erd1qqqqqqqqqqqqqpgqa0fsfshnff4n76jhcye6k7uvd7qacsq42jpsp6shh2",
+            "senderAssets": {
+                "name": "xExchange: WETH/WEGLD Liquidity Pool",
+                "tags": [
+                    "xexchange",
+                    "liquiditypool"
+                ],
+                "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.png",
+                "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.svg"
+            },
+            "receiverAssets": {
+                "name": "xExchange: MEX/WEGLD Liquidity Pool",
+                "tags": [
+                    "xexchange",
+                    "liquiditypool"
+                ],
+                "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.png",
+                "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.svg"
+            },
+            "data": "RVNEVFRyYW5zZmVyQDU3NDU0NzRjNDQyZDYyNjQzNDY0MzczOUAwMzEzM2MzYWZhNmRANzM3NzYxNzA0ZTZmNDY2NTY1NDE2ZTY0NDY2ZjcyNzc2MTcyNjRANGQ0NTU4MmQzNDM1MzU2MzM1MzdAMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMA==",
+            "prevTxHash": "2864dedd4b536d70280d055f6a7b19b3e78360d476ba1beed977c322a2022d5c",
+            "originalTxHash": "2864dedd4b536d70280d055f6a7b19b3e78360d476ba1beed977c322a2022d5c",
+            "callType": "0",
+            "miniBlockHash": "570acd0e316507429359e2cfc02d7e3414a1fad56f35a873d0b70e6aa721c5c0",
+            "function": "swapNoFeeAndForward"
+        },
+        {
+            "hash": "bd9d98c4d927ee610a207564578c715ab9220f16f52b914671d09f061ebdd6c6",
+            "timestamp": 1718969490,
+            "nonce": 0,
+            "gasLimit": 0,
+            "gasPrice": 1000000000,
+            "value": "0",
+            "sender": "erd1qqqqqqqqqqqqqpgqtjhhs49h0q2ncld64l3thtk7s7yuw47v2jps8emt0v",
+            "receiver": "erd1qqqqqqqqqqqqqpgqjsnxqprks7qxfwkcg2m2v9hxkrchgm9akp2segrswt",
+            "senderAssets": {
+                "name": "xExchange: ZPAY/WEGLD Liquidity Pool",
+                "tags": [
+                    "xexchange",
+                    "liquiditypool"
+                ],
+                "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.png",
+                "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.svg"
+            },
+            "receiverAssets": {
+                "name": "xExchange: Fees Collector",
+                "social": {
+                    "website": "https://xexchange.com",
+                    "twitter": "https://twitter.com/xExchangeApp",
+                    "telegram": "https://t.me/xExchangeApp",
+                    "blog": "https://multiversx.com/blog/maiar-exchange-mex-tokenomics"
+                },
+                "tags": [
+                    "xexchange",
+                    "energy",
+                    "fees",
+                    "collector"
+                ],
+                "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.png",
+                "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.svg"
+            },
+            "data": "RVNEVFRyYW5zZmVyQDVhNTA0MTU5MmQzMjM0MzczODM3MzVAMmI1ZGU1MmJhOWNiMDBANjQ2NTcwNmY3MzY5NzQ1Mzc3NjE3MDQ2NjU2NTcz",
+            "prevTxHash": "2864dedd4b536d70280d055f6a7b19b3e78360d476ba1beed977c322a2022d5c",
+            "originalTxHash": "2864dedd4b536d70280d055f6a7b19b3e78360d476ba1beed977c322a2022d5c",
+            "callType": "0",
+            "miniBlockHash": "570acd0e316507429359e2cfc02d7e3414a1fad56f35a873d0b70e6aa721c5c0",
+            "function": "depositSwapFees"
+        },
+        {
+            "hash": "264757a7856406b22dc5e21bd791abbb23c48128ace2d5cb423d3a1507d8234b",
+            "timestamp": 1718969490,
+            "nonce": 0,
+            "gasLimit": 0,
+            "gasPrice": 1000000000,
+            "value": "0",
+            "sender": "erd1qqqqqqqqqqqqqpgqcc69ts8409p3h77q5chsaqz57y6hugvc4fvs64k74v",
+            "receiver": "erd1qqqqqqqqqqqqqpgqt0uek344kaerr4gf9g2r8l0f4l8ygyha2jps82u9r6",
+            "senderAssets": {
+                "name": "AshSwap: Aggregator v2",
+                "social": {
+                    "website": "https://ashswap.io",
+                    "email": "hello@ashswap.io",
+                    "blog": "https://medium.com/@ashswap",
+                    "twitter": "https://twitter.com/ash_swap",
+                    "telegram": "https://t.me/ash_swap",
+                    "discord": "https://discord.gg/apmhYCPDbW",
+                    "facebook": "https://www.facebook.com/ashswap.io",
+                    "commmunity": "https://egld.community/projects/ashswap"
+                },
+                "tags": [
+                    "ashswap",
+                    "swap",
+                    "aggregator",
+                    "dexaggregator"
+                ],
+                "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/ashswap.png",
+                "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/ashswap.svg"
+            },
+            "receiverAssets": {
+                "name": "xExchange: WETH/WEGLD Liquidity Pool",
+                "tags": [
+                    "xexchange",
+                    "liquiditypool"
+                ],
+                "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.png",
+                "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.svg"
+            },
+            "data": "RVNEVFRyYW5zZmVyQDU3NDU0NzRjNDQyZDYyNjQzNDY0MzczOUAxODA2NDY4Y2M0NzBiN0A3Mzc3NjE3MDU0NmY2YjY1NmU3MzQ2Njk3ODY1NjQ0OTZlNzA3NTc0QDU3NDU1NDQ4MmQ2MjM0NjM2MTMyMzlAMDE=",
+            "prevTxHash": "2864dedd4b536d70280d055f6a7b19b3e78360d476ba1beed977c322a2022d5c",
+            "originalTxHash": "2864dedd4b536d70280d055f6a7b19b3e78360d476ba1beed977c322a2022d5c",
+            "callType": "0",
+            "miniBlockHash": "570acd0e316507429359e2cfc02d7e3414a1fad56f35a873d0b70e6aa721c5c0",
+            "function": "swapTokensFixedInput"
+        },
+        {
+            "hash": "250efb9f7e766fa1f0d929859e0edd9258e208be1cee294212a263e316e259e7",
+            "timestamp": 1718969490,
+            "nonce": 1,
+            "gasLimit": 0,
+            "gasPrice": 1000000000,
+            "value": "0",
+            "sender": "erd1qqqqqqqqqqqqqpgqt0uek344kaerr4gf9g2r8l0f4l8ygyha2jps82u9r6",
+            "receiver": "erd1qqqqqqqqqqqqqpgqcc69ts8409p3h77q5chsaqz57y6hugvc4fvs64k74v",
+            "senderAssets": {
+                "name": "xExchange: WETH/WEGLD Liquidity Pool",
+                "tags": [
+                    "xexchange",
+                    "liquiditypool"
+                ],
+                "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.png",
+                "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.svg"
+            },
+            "receiverAssets": {
+                "name": "AshSwap: Aggregator v2",
+                "social": {
+                    "website": "https://ashswap.io",
+                    "email": "hello@ashswap.io",
+                    "blog": "https://medium.com/@ashswap",
+                    "twitter": "https://twitter.com/ash_swap",
+                    "telegram": "https://t.me/ash_swap",
+                    "discord": "https://discord.gg/apmhYCPDbW",
+                    "facebook": "https://www.facebook.com/ashswap.io",
+                    "commmunity": "https://egld.community/projects/ashswap"
+                },
+                "tags": [
+                    "ashswap",
+                    "swap",
+                    "aggregator",
+                    "dexaggregator"
+                ],
+                "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/ashswap.png",
+                "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/ashswap.svg"
+            },
+            "data": "RVNEVFRyYW5zZmVyQDU3NDU1NDQ4MmQ2MjM0NjM2MTMyMzlAMzMwZDZiZDRlOTAz",
+            "prevTxHash": "2864dedd4b536d70280d055f6a7b19b3e78360d476ba1beed977c322a2022d5c",
+            "originalTxHash": "2864dedd4b536d70280d055f6a7b19b3e78360d476ba1beed977c322a2022d5c",
+            "callType": "0",
+            "miniBlockHash": "570acd0e316507429359e2cfc02d7e3414a1fad56f35a873d0b70e6aa721c5c0",
+            "function": "ESDTTransfer"
+        },
+        {
+            "hash": "70975f171ebfd3c8af333bb5f24a13cc868c9e83ab2652d81dec1cedc3fe1338",
+            "timestamp": 1718969514,
+            "nonce": 753,
+            "gasLimit": 0,
+            "gasPrice": 1000000000,
+            "value": "79125570000000",
+            "sender": "erd1qqqqqqqqqqqqqpgqcc69ts8409p3h77q5chsaqz57y6hugvc4fvs64k74v",
+            "receiver": "erd19dw6qeqyvn5ft7rqfzcds587j6u26n88kwkp0n0unnz7h2h6ds8qfpjmch",
+            "senderAssets": {
+                "name": "AshSwap: Aggregator v2",
+                "social": {
+                    "website": "https://ashswap.io",
+                    "email": "hello@ashswap.io",
+                    "blog": "https://medium.com/@ashswap",
+                    "twitter": "https://twitter.com/ash_swap",
+                    "telegram": "https://t.me/ash_swap",
+                    "discord": "https://discord.gg/apmhYCPDbW",
+                    "facebook": "https://www.facebook.com/ashswap.io",
+                    "commmunity": "https://egld.community/projects/ashswap"
+                },
+                "tags": [
+                    "ashswap",
+                    "swap",
+                    "aggregator",
+                    "dexaggregator"
+                ],
+                "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/ashswap.png",
+                "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/ashswap.svg"
+            },
+            "receiverAssets": {
+                "name": "laurentpecyna.elrond",
+                "tags": [
+                    "dns",
+                    "username"
+                ]
+            },
+            "data": "QDZmNmJAQDAwMDAwMDBiNTc0NTU0NDgyZDYyMzQ2MzYxMzIzOTAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwNjMzMGQ2YmQ0ZTkwMw==",
+            "prevTxHash": "2864dedd4b536d70280d055f6a7b19b3e78360d476ba1beed977c322a2022d5c",
+            "originalTxHash": "2864dedd4b536d70280d055f6a7b19b3e78360d476ba1beed977c322a2022d5c",
+            "callType": "0",
+            "miniBlockHash": "3cafda271696a8c30517c960a8f169895c8da2a751ef2851ce3449e2d861fd61",
+            "logs": {
+                "id": "70975f171ebfd3c8af333bb5f24a13cc868c9e83ab2652d81dec1cedc3fe1338",
+                "address": "erd19dw6qeqyvn5ft7rqfzcds587j6u26n88kwkp0n0unnz7h2h6ds8qfpjmch",
+                "events": [
+                    {
+                        "identifier": "completedTxEvent",
+                        "address": "erd19dw6qeqyvn5ft7rqfzcds587j6u26n88kwkp0n0unnz7h2h6ds8qfpjmch",
+                        "topics": [
+                            "KGTe3UtTbXAoDQVfansZs+eDYNR2uhvu2XfDIqICLVw="
+                        ],
+                        "order": 0
+                    }
+                ]
+            },
+            "function": "transfer"
+        },
+        {
+            "hash": "6b3bfc2b92e495c2966c3084e6f07ac1d277700f0aa0f6acc2477e8a058e7b44",
+            "timestamp": 1718969514,
+            "nonce": 0,
+            "gasLimit": 0,
+            "gasPrice": 1000000000,
+            "value": "0",
+            "sender": "erd1qqqqqqqqqqqqqpgqcc69ts8409p3h77q5chsaqz57y6hugvc4fvs64k74v",
+            "receiver": "erd19dw6qeqyvn5ft7rqfzcds587j6u26n88kwkp0n0unnz7h2h6ds8qfpjmch",
+            "senderAssets": {
+                "name": "AshSwap: Aggregator v2",
+                "social": {
+                    "website": "https://ashswap.io",
+                    "email": "hello@ashswap.io",
+                    "blog": "https://medium.com/@ashswap",
+                    "twitter": "https://twitter.com/ash_swap",
+                    "telegram": "https://t.me/ash_swap",
+                    "discord": "https://discord.gg/apmhYCPDbW",
+                    "facebook": "https://www.facebook.com/ashswap.io",
+                    "commmunity": "https://egld.community/projects/ashswap"
+                },
+                "tags": [
+                    "ashswap",
+                    "swap",
+                    "aggregator",
+                    "dexaggregator"
+                ],
+                "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/ashswap.png",
+                "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/ashswap.svg"
+            },
+            "receiverAssets": {
+                "name": "laurentpecyna.elrond",
+                "tags": [
+                    "dns",
+                    "username"
+                ]
+            },
+            "data": "RVNEVFRyYW5zZmVyQDU3NDU1NDQ4MmQ2MjM0NjM2MTMyMzlAMzMwZDZiZDRlOTAz",
+            "prevTxHash": "2864dedd4b536d70280d055f6a7b19b3e78360d476ba1beed977c322a2022d5c",
+            "originalTxHash": "2864dedd4b536d70280d055f6a7b19b3e78360d476ba1beed977c322a2022d5c",
+            "callType": "0",
+            "miniBlockHash": "3cafda271696a8c30517c960a8f169895c8da2a751ef2851ce3449e2d861fd61",
+            "logs": {
+                "id": "6b3bfc2b92e495c2966c3084e6f07ac1d277700f0aa0f6acc2477e8a058e7b44",
+                "address": "erd19dw6qeqyvn5ft7rqfzcds587j6u26n88kwkp0n0unnz7h2h6ds8qfpjmch",
+                "events": [
+                    {
+                        "identifier": "ESDTTransfer",
+                        "address": "erd1qqqqqqqqqqqqqpgqcc69ts8409p3h77q5chsaqz57y6hugvc4fvs64k74v",
+                        "topics": [
+                            "V0VUSC1iNGNhMjk=",
+                            "",
+                            "Mw1r1OkD",
+                            "K12gZARk6JX4YEiw2FD+lritTOezrBfN/JzF66r6bA4="
+                        ],
+                        "additionalData": [
+                            "",
+                            "RVNEVFRyYW5zZmVy",
+                            "V0VUSC1iNGNhMjk=",
+                            "Mw1r1OkD"
+                        ],
+                        "order": 0
+                    },
+                    {
+                        "identifier": "writeLog",
+                        "address": "erd19dw6qeqyvn5ft7rqfzcds587j6u26n88kwkp0n0unnz7h2h6ds8qfpjmch",
+                        "data": "QDZmNmI=",
+                        "topics": [
+                            "AAAAAAAAAAAFAMY0VcD1eUMb+8CmLw6AVPE1fiGYqlk="
+                        ],
+                        "additionalData": [
+                            "QDZmNmI="
+                        ],
+                        "order": 1
+                    },
+                    {
+                        "identifier": "completedTxEvent",
+                        "address": "erd19dw6qeqyvn5ft7rqfzcds587j6u26n88kwkp0n0unnz7h2h6ds8qfpjmch",
+                        "topics": [
+                            "KGTe3UtTbXAoDQVfansZs+eDYNR2uhvu2XfDIqICLVw="
+                        ],
+                        "order": 2
+                    }
+                ]
+            },
+            "function": "ESDTTransfer"
+        }
+    ],
+    "price": 28.4,
+    "logs": {
+        "id": "2864dedd4b536d70280d055f6a7b19b3e78360d476ba1beed977c322a2022d5c",
+        "address": "erd1qqqqqqqqqqqqqpgqcc69ts8409p3h77q5chsaqz57y6hugvc4fvs64k74v",
+        "addressAssets": {
+            "name": "AshSwap: Aggregator v2",
+            "social": {
+                "website": "https://ashswap.io",
+                "email": "hello@ashswap.io",
+                "blog": "https://medium.com/@ashswap",
+                "twitter": "https://twitter.com/ash_swap",
+                "telegram": "https://t.me/ash_swap",
+                "discord": "https://discord.gg/apmhYCPDbW",
+                "facebook": "https://www.facebook.com/ashswap.io",
+                "commmunity": "https://egld.community/projects/ashswap"
+            },
+            "tags": [
+                "ashswap",
+                "swap",
+                "aggregator",
+                "dexaggregator"
+            ],
+            "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/ashswap.png",
+            "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/ashswap.svg"
+        },
+        "events": [
+            {
+                "identifier": "ESDTTransfer",
+                "address": "erd19dw6qeqyvn5ft7rqfzcds587j6u26n88kwkp0n0unnz7h2h6ds8qfpjmch",
+                "topics": [
+                    "WlBBWS0yNDc4NzU=",
+                    "",
+                    "AVOm7v4TCQAA",
+                    "AAAAAAAAAAAFAMY0VcD1eUMb+8CmLw6AVPE1fiGYqlk="
+                ],
+                "additionalData": [
+                    "",
+                    "RVNEVFRyYW5zZmVy",
+                    "WlBBWS0yNDc4NzU=",
+                    "AVOm7v4TCQAA",
+                    "YWdncmVnYXRlRXNkdA==",
+                    "AAAAC1pQQVktMjQ3ODc1AAAADFdFR0xELWJkNGQ3OQAAAAkBUs2OZR6B8AAAAAAAAAAAAAUAXK94VLd4FTx9uq/iu67eh4nHV8xUgwAAABRzd2FwVG9rZW5zRml4ZWRJbnB1dAAAAAIAAAAMV0VHTEQtYmQ0ZDc5AAAAAQEAAAAMV0VHTEQtYmQ0ZDc5AAAAC1dFVEgtYjRjYTI5AAAAAAAAAAAAAAAABQBb+ZtGtbdyMdUJKhQz/emvzkQS/VSDAAAAFHN3YXBUb2tlbnNGaXhlZElucHV0AAAAAgAAAAtXRVRILWI0Y2EyOQAAAAEB",
+                    "AAAAC1pQQVktMjQ3ODc1AAAAAAAAAAxXRUdMRC1iZDRkNzkAAAAAAAAAC1dFVEgtYjRjYTI5AAAABjKKuh0FZg==",
+                    "",
+                    "6lSNXNi6yj0ROactrzgKsAt17Q0ev/QwxOLAQojGpwE="
+                ],
+                "order": 0,
+                "addressAssets": {
+                    "name": "laurentpecyna.elrond",
+                    "tags": [
+                        "dns",
+                        "username"
+                    ]
+                }
+            },
+            {
+                "identifier": "ESDTTransfer",
+                "address": "erd1qqqqqqqqqqqqqpgqcc69ts8409p3h77q5chsaqz57y6hugvc4fvs64k74v",
+                "data": "RXhlY3V0ZU9uRGVzdENvbnRleHQ=",
+                "topics": [
+                    "WlBBWS0yNDc4NzU=",
+                    "",
+                    "AVLNjmUegfAA",
+                    "AAAAAAAAAAAFAFyveFS3eBU8fbqv4ruu3oeJx1fMVIM="
+                ],
+                "additionalData": [
+                    "RXhlY3V0ZU9uRGVzdENvbnRleHQ=",
+                    "RVNEVFRyYW5zZmVy",
+                    "WlBBWS0yNDc4NzU=",
+                    "AVLNjmUegfAA",
+                    "c3dhcFRva2Vuc0ZpeGVkSW5wdXQ=",
+                    "V0VHTEQtYmQ0ZDc5",
+                    "AQ=="
+                ],
+                "order": 1,
+                "addressAssets": {
+                    "name": "AshSwap: Aggregator v2",
+                    "social": {
+                        "website": "https://ashswap.io",
+                        "email": "hello@ashswap.io",
+                        "blog": "https://medium.com/@ashswap",
+                        "twitter": "https://twitter.com/ash_swap",
+                        "telegram": "https://t.me/ash_swap",
+                        "discord": "https://discord.gg/apmhYCPDbW",
+                        "facebook": "https://www.facebook.com/ashswap.io",
+                        "commmunity": "https://egld.community/projects/ashswap"
+                    },
+                    "tags": [
+                        "ashswap",
+                        "swap",
+                        "aggregator",
+                        "dexaggregator"
+                    ],
+                    "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/ashswap.png",
+                    "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/ashswap.svg"
+                }
+            },
+            {
+                "identifier": "ESDTTransfer",
+                "address": "erd1qqqqqqqqqqqqqpgqtjhhs49h0q2ncld64l3thtk7s7yuw47v2jps8emt0v",
+                "data": "RXhlY3V0ZU9uRGVzdENvbnRleHQ=",
+                "topics": [
+                    "WlBBWS0yNDc4NzU=",
+                    "",
+                    "K13lK6nLAA==",
+                    "AAAAAAAAAAAFAJQmYAR2h4BkuthCtqYW5rDxdGy9sFU="
+                ],
+                "additionalData": [
+                    "RXhlY3V0ZU9uRGVzdENvbnRleHQ=",
+                    "RVNEVFRyYW5zZmVy",
+                    "WlBBWS0yNDc4NzU=",
+                    "K13lK6nLAA==",
+                    "ZGVwb3NpdFN3YXBGZWVz"
+                ],
+                "order": 2,
+                "addressAssets": {
+                    "name": "xExchange: ZPAY/WEGLD Liquidity Pool",
+                    "tags": [
+                        "xexchange",
+                        "liquiditypool"
+                    ],
+                    "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.png",
+                    "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.svg"
+                }
+            },
+            {
+                "identifier": "depositSwapFees",
+                "address": "erd1qqqqqqqqqqqqqpgqjsnxqprks7qxfwkcg2m2v9hxkrchgm9akp2segrswt",
+                "topics": [
+                    "ZGVwb3NpdF9zd2FwX2ZlZXNfZXZlbnQ=",
+                    "AAAAAAAAAAAFAFyveFS3eBU8fbqv4ruu3oeJx1fMVIM=",
+                    "UA==",
+                    "AAAAC1pQQVktMjQ3ODc1AAAAAAAAAAAAAAAHK13lK6nLAA=="
+                ],
+                "additionalData": [
+                    ""
+                ],
+                "order": 3,
+                "addressAssets": {
+                    "name": "xExchange: Fees Collector",
+                    "social": {
+                        "website": "https://xexchange.com",
+                        "twitter": "https://twitter.com/xExchangeApp",
+                        "telegram": "https://t.me/xExchangeApp",
+                        "blog": "https://multiversx.com/blog/maiar-exchange-mex-tokenomics"
+                    },
+                    "tags": [
+                        "xexchange",
+                        "energy",
+                        "fees",
+                        "collector"
+                    ],
+                    "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.png",
+                    "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.svg"
+                }
+            },
+            {
+                "identifier": "ESDTTransfer",
+                "address": "erd1qqqqqqqqqqqqqpgqtjhhs49h0q2ncld64l3thtk7s7yuw47v2jps8emt0v",
+                "data": "RXhlY3V0ZU9uRGVzdENvbnRleHQ=",
+                "topics": [
+                    "V0VHTEQtYmQ0ZDc5",
+                    "",
+                    "AxWacM+t",
+                    "AAAAAAAAAAAFAOvTBMLzSms/alfBM6t7jG+B3EAVVIM="
+                ],
+                "additionalData": [
+                    "RXhlY3V0ZU9uRGVzdENvbnRleHQ=",
+                    "RVNEVFRyYW5zZmVy",
+                    "V0VHTEQtYmQ0ZDc5",
+                    "AxWacM+t",
+                    "c3dhcE5vRmVlQW5kRm9yd2FyZA==",
+                    "TUVYLTQ1NWM1Nw==",
+                    "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA="
+                ],
+                "order": 4,
+                "addressAssets": {
+                    "name": "xExchange: ZPAY/WEGLD Liquidity Pool",
+                    "tags": [
+                        "xexchange",
+                        "liquiditypool"
+                    ],
+                    "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.png",
+                    "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.svg"
+                }
+            },
+            {
+                "identifier": "ESDTLocalBurn",
+                "address": "erd1qqqqqqqqqqqqqpgqa0fsfshnff4n76jhcye6k7uvd7qacsq42jpsp6shh2",
+                "topics": [
+                    "TUVYLTQ1NWM1Nw==",
+                    "",
+                    "AWtOhuyoWoWK"
+                ],
+                "order": 5,
+                "addressAssets": {
+                    "name": "xExchange: MEX/WEGLD Liquidity Pool",
+                    "tags": [
+                        "xexchange",
+                        "liquiditypool"
+                    ],
+                    "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.png",
+                    "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.svg"
+                }
+            },
+            {
+                "identifier": "swapNoFeeAndForward",
+                "address": "erd1qqqqqqqqqqqqqpgqa0fsfshnff4n76jhcye6k7uvd7qacsq42jpsp6shh2",
+                "data": "AAAAAAAAAAAFAFyveFS3eBU8fbqv4ruu3oeJx1fMVIMAAAAMV0VHTEQtYmQ0ZDc5AAAABgMVmnDPrQAAAApNRVgtNDU1YzU3AAAACQFrTobsqFqFigAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE4LZAAAAAAAAAFjQAAAABmdWSS",
+                "topics": [
+                    "c3dhcF9ub19mZWVfYW5kX2ZvcndhcmQ=",
+                    "TUVYLTQ1NWM1Nw==",
+                    "AAAAAAAAAAAFAFyveFS3eBU8fbqv4ruu3oeJx1fMVIM=",
+                    "BY0="
+                ],
+                "additionalData": [
+                    "AAAAAAAAAAAFAFyveFS3eBU8fbqv4ruu3oeJx1fMVIMAAAAMV0VHTEQtYmQ0ZDc5AAAABgMVmnDPrQAAAApNRVgtNDU1YzU3AAAACQFrTobsqFqFigAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE4LZAAAAAAAAAFjQAAAABmdWSS"
+                ],
+                "order": 6,
+                "addressAssets": {
+                    "name": "xExchange: MEX/WEGLD Liquidity Pool",
+                    "tags": [
+                        "xexchange",
+                        "liquiditypool"
+                    ],
+                    "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.png",
+                    "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.svg"
+                }
+            },
+            {
+                "identifier": "ESDTTransfer",
+                "address": "erd1qqqqqqqqqqqqqpgqtjhhs49h0q2ncld64l3thtk7s7yuw47v2jps8emt0v",
+                "data": "QmFja1RyYW5zZmVy",
+                "topics": [
+                    "V0VHTEQtYmQ0ZDc5",
+                    "",
+                    "GAZGjMRwtw==",
+                    "AAAAAAAAAAAFAMY0VcD1eUMb+8CmLw6AVPE1fiGYqlk="
+                ],
+                "additionalData": [
+                    "QmFja1RyYW5zZmVy",
+                    "RVNEVFRyYW5zZmVy",
+                    "V0VHTEQtYmQ0ZDc5",
+                    "GAZGjMRwtw=="
+                ],
+                "order": 7,
+                "addressAssets": {
+                    "name": "xExchange: ZPAY/WEGLD Liquidity Pool",
+                    "tags": [
+                        "xexchange",
+                        "liquiditypool"
+                    ],
+                    "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.png",
+                    "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.svg"
+                }
+            },
+            {
+                "identifier": "swapTokensFixedInput",
+                "address": "erd1qqqqqqqqqqqqqpgqtjhhs49h0q2ncld64l3thtk7s7yuw47v2jps8emt0v",
+                "data": "AAAAAAAAAAAFAMY0VcD1eUMb+8CmLw6AVPE1fiGYqlkAAAALWlBBWS0yNDc4NzUAAAAJAVLNjmUegfAAAAAADFdFR0xELWJkNGQ3OQAAAAcYBkaMxHC3AAAAB1a7yldTlgAAAAALE9bSA3fGIFThXRoAAAAKAWk470I3WtqmmQAAAAABOC2QAAAAAAAABY0AAAAAZnVkkg==",
+                "topics": [
+                    "c3dhcA==",
+                    "WlBBWS0yNDc4NzU=",
+                    "V0VHTEQtYmQ0ZDc5",
+                    "AAAAAAAAAAAFAMY0VcD1eUMb+8CmLw6AVPE1fiGYqlk=",
+                    "BY0="
+                ],
+                "additionalData": [
+                    "AAAAAAAAAAAFAMY0VcD1eUMb+8CmLw6AVPE1fiGYqlkAAAALWlBBWS0yNDc4NzUAAAAJAVLNjmUegfAAAAAADFdFR0xELWJkNGQ3OQAAAAcYBkaMxHC3AAAAB1a7yldTlgAAAAALE9bSA3fGIFThXRoAAAAKAWk470I3WtqmmQAAAAABOC2QAAAAAAAABY0AAAAAZnVkkg=="
+                ],
+                "order": 8,
+                "addressAssets": {
+                    "name": "xExchange: ZPAY/WEGLD Liquidity Pool",
+                    "tags": [
+                        "xexchange",
+                        "liquiditypool"
+                    ],
+                    "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.png",
+                    "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.svg"
+                }
+            },
+            {
+                "identifier": "ESDTTransfer",
+                "address": "erd1qqqqqqqqqqqqqpgqcc69ts8409p3h77q5chsaqz57y6hugvc4fvs64k74v",
+                "data": "RXhlY3V0ZU9uRGVzdENvbnRleHQ=",
+                "topics": [
+                    "V0VHTEQtYmQ0ZDc5",
+                    "",
+                    "GAZGjMRwtw==",
+                    "AAAAAAAAAAAFAFv5m0a1t3Ix1QkqFDP96a/ORBL9VIM="
+                ],
+                "additionalData": [
+                    "RXhlY3V0ZU9uRGVzdENvbnRleHQ=",
+                    "RVNEVFRyYW5zZmVy",
+                    "V0VHTEQtYmQ0ZDc5",
+                    "GAZGjMRwtw==",
+                    "c3dhcFRva2Vuc0ZpeGVkSW5wdXQ=",
+                    "V0VUSC1iNGNhMjk=",
+                    "AQ=="
+                ],
+                "order": 9,
+                "addressAssets": {
+                    "name": "AshSwap: Aggregator v2",
+                    "social": {
+                        "website": "https://ashswap.io",
+                        "email": "hello@ashswap.io",
+                        "blog": "https://medium.com/@ashswap",
+                        "twitter": "https://twitter.com/ash_swap",
+                        "telegram": "https://t.me/ash_swap",
+                        "discord": "https://discord.gg/apmhYCPDbW",
+                        "facebook": "https://www.facebook.com/ashswap.io",
+                        "commmunity": "https://egld.community/projects/ashswap"
+                    },
+                    "tags": [
+                        "ashswap",
+                        "swap",
+                        "aggregator",
+                        "dexaggregator"
+                    ],
+                    "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/ashswap.png",
+                    "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/ashswap.svg"
+                }
+            },
+            {
+                "identifier": "ESDTTransfer",
+                "address": "erd1qqqqqqqqqqqqqpgqt0uek344kaerr4gf9g2r8l0f4l8ygyha2jps82u9r6",
+                "data": "RXhlY3V0ZU9uRGVzdENvbnRleHQ=",
+                "topics": [
+                    "V0VHTEQtYmQ0ZDc5",
+                    "",
+                    "AxM8Ovps",
+                    "AAAAAAAAAAAFAJQmYAR2h4BkuthCtqYW5rDxdGy9sFU="
+                ],
+                "additionalData": [
+                    "RXhlY3V0ZU9uRGVzdENvbnRleHQ=",
+                    "RVNEVFRyYW5zZmVy",
+                    "V0VHTEQtYmQ0ZDc5",
+                    "AxM8Ovps",
+                    "ZGVwb3NpdFN3YXBGZWVz"
+                ],
+                "order": 10,
+                "addressAssets": {
+                    "name": "xExchange: WETH/WEGLD Liquidity Pool",
+                    "tags": [
+                        "xexchange",
+                        "liquiditypool"
+                    ],
+                    "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.png",
+                    "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.svg"
+                }
+            },
+            {
+                "identifier": "depositSwapFees",
+                "address": "erd1qqqqqqqqqqqqqpgqjsnxqprks7qxfwkcg2m2v9hxkrchgm9akp2segrswt",
+                "topics": [
+                    "ZGVwb3NpdF9zd2FwX2ZlZXNfZXZlbnQ=",
+                    "AAAAAAAAAAAFAFv5m0a1t3Ix1QkqFDP96a/ORBL9VIM=",
+                    "UA==",
+                    "AAAADFdFR0xELWJkNGQ3OQAAAAAAAAAAAAAABgMTPDr6bA=="
+                ],
+                "additionalData": [
+                    ""
+                ],
+                "order": 11,
+                "addressAssets": {
+                    "name": "xExchange: Fees Collector",
+                    "social": {
+                        "website": "https://xexchange.com",
+                        "twitter": "https://twitter.com/xExchangeApp",
+                        "telegram": "https://t.me/xExchangeApp",
+                        "blog": "https://multiversx.com/blog/maiar-exchange-mex-tokenomics"
+                    },
+                    "tags": [
+                        "xexchange",
+                        "energy",
+                        "fees",
+                        "collector"
+                    ],
+                    "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.png",
+                    "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.svg"
+                }
+            },
+            {
+                "identifier": "ESDTTransfer",
+                "address": "erd1qqqqqqqqqqqqqpgqt0uek344kaerr4gf9g2r8l0f4l8ygyha2jps82u9r6",
+                "data": "RXhlY3V0ZU9uRGVzdENvbnRleHQ=",
+                "topics": [
+                    "V0VHTEQtYmQ0ZDc5",
+                    "",
+                    "AxM8Ovpt",
+                    "AAAAAAAAAAAFAOvTBMLzSms/alfBM6t7jG+B3EAVVIM="
+                ],
+                "additionalData": [
+                    "RXhlY3V0ZU9uRGVzdENvbnRleHQ=",
+                    "RVNEVFRyYW5zZmVy",
+                    "V0VHTEQtYmQ0ZDc5",
+                    "AxM8Ovpt",
+                    "c3dhcE5vRmVlQW5kRm9yd2FyZA==",
+                    "TUVYLTQ1NWM1Nw==",
+                    "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA="
+                ],
+                "order": 12,
+                "addressAssets": {
+                    "name": "xExchange: WETH/WEGLD Liquidity Pool",
+                    "tags": [
+                        "xexchange",
+                        "liquiditypool"
+                    ],
+                    "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.png",
+                    "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.svg"
+                }
+            },
+            {
+                "identifier": "ESDTLocalBurn",
+                "address": "erd1qqqqqqqqqqqqqpgqa0fsfshnff4n76jhcye6k7uvd7qacsq42jpsp6shh2",
+                "topics": [
+                    "TUVYLTQ1NWM1Nw==",
+                    "",
+                    "AWo3mg/lKKSU"
+                ],
+                "order": 13,
+                "addressAssets": {
+                    "name": "xExchange: MEX/WEGLD Liquidity Pool",
+                    "tags": [
+                        "xexchange",
+                        "liquiditypool"
+                    ],
+                    "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.png",
+                    "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.svg"
+                }
+            },
+            {
+                "identifier": "swapNoFeeAndForward",
+                "address": "erd1qqqqqqqqqqqqqpgqa0fsfshnff4n76jhcye6k7uvd7qacsq42jpsp6shh2",
+                "data": "AAAAAAAAAAAFAFv5m0a1t3Ix1QkqFDP96a/ORBL9VIMAAAAMV0VHTEQtYmQ0ZDc5AAAABgMTPDr6bQAAAApNRVgtNDU1YzU3AAAACQFqN5oP5SiklAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE4LZAAAAAAAAAFjQAAAABmdWSS",
+                "topics": [
+                    "c3dhcF9ub19mZWVfYW5kX2ZvcndhcmQ=",
+                    "TUVYLTQ1NWM1Nw==",
+                    "AAAAAAAAAAAFAFv5m0a1t3Ix1QkqFDP96a/ORBL9VIM=",
+                    "BY0="
+                ],
+                "additionalData": [
+                    "AAAAAAAAAAAFAFv5m0a1t3Ix1QkqFDP96a/ORBL9VIMAAAAMV0VHTEQtYmQ0ZDc5AAAABgMTPDr6bQAAAApNRVgtNDU1YzU3AAAACQFqN5oP5SiklAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE4LZAAAAAAAAAFjQAAAABmdWSS"
+                ],
+                "order": 14,
+                "addressAssets": {
+                    "name": "xExchange: MEX/WEGLD Liquidity Pool",
+                    "tags": [
+                        "xexchange",
+                        "liquiditypool"
+                    ],
+                    "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.png",
+                    "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.svg"
+                }
+            },
+            {
+                "identifier": "ESDTTransfer",
+                "address": "erd1qqqqqqqqqqqqqpgqt0uek344kaerr4gf9g2r8l0f4l8ygyha2jps82u9r6",
+                "data": "QmFja1RyYW5zZmVy",
+                "topics": [
+                    "V0VUSC1iNGNhMjk=",
+                    "",
+                    "Mw1r1OkD",
+                    "AAAAAAAAAAAFAMY0VcD1eUMb+8CmLw6AVPE1fiGYqlk="
+                ],
+                "additionalData": [
+                    "QmFja1RyYW5zZmVy",
+                    "RVNEVFRyYW5zZmVy",
+                    "V0VUSC1iNGNhMjk=",
+                    "Mw1r1OkD"
+                ],
+                "order": 15,
+                "addressAssets": {
+                    "name": "xExchange: WETH/WEGLD Liquidity Pool",
+                    "tags": [
+                        "xexchange",
+                        "liquiditypool"
+                    ],
+                    "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.png",
+                    "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.svg"
+                }
+            },
+            {
+                "identifier": "swapTokensFixedInput",
+                "address": "erd1qqqqqqqqqqqqqpgqt0uek344kaerr4gf9g2r8l0f4l8ygyha2jps82u9r6",
+                "data": "AAAAAAAAAAAFAMY0VcD1eUMb+8CmLw6AVPE1fiGYqlkAAAAMV0VHTEQtYmQ0ZDc5AAAABxgGRozEcLcAAAALV0VUSC1iNGNhMjkAAAAGMw1r1OkDAAAABgYmeHX02QAAAAmBe2WojVdsG3QAAAAJARP6bqhbllHJAAAAAAE4LZAAAAAAAAAFjQAAAABmdWSS",
+                "topics": [
+                    "c3dhcA==",
+                    "V0VHTEQtYmQ0ZDc5",
+                    "V0VUSC1iNGNhMjk=",
+                    "AAAAAAAAAAAFAMY0VcD1eUMb+8CmLw6AVPE1fiGYqlk=",
+                    "BY0="
+                ],
+                "additionalData": [
+                    "AAAAAAAAAAAFAMY0VcD1eUMb+8CmLw6AVPE1fiGYqlkAAAAMV0VHTEQtYmQ0ZDc5AAAABxgGRozEcLcAAAALV0VUSC1iNGNhMjkAAAAGMw1r1OkDAAAABgYmeHX02QAAAAmBe2WojVdsG3QAAAAJARP6bqhbllHJAAAAAAE4LZAAAAAAAAAFjQAAAABmdWSS"
+                ],
+                "order": 16,
+                "addressAssets": {
+                    "name": "xExchange: WETH/WEGLD Liquidity Pool",
+                    "tags": [
+                        "xexchange",
+                        "liquiditypool"
+                    ],
+                    "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.png",
+                    "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.svg"
+                }
+            },
+            {
+                "identifier": "ESDTTransfer",
+                "address": "erd1qqqqqqqqqqqqqpgqcc69ts8409p3h77q5chsaqz57y6hugvc4fvs64k74v",
+                "data": "RGlyZWN0Q2FsbA==",
+                "topics": [
+                    "V0VUSC1iNGNhMjk=",
+                    "",
+                    "Mw1r1OkD",
+                    "K12gZARk6JX4YEiw2FD+lritTOezrBfN/JzF66r6bA4="
+                ],
+                "additionalData": [
+                    "RGlyZWN0Q2FsbA==",
+                    "RVNEVFRyYW5zZmVy",
+                    "V0VUSC1iNGNhMjk=",
+                    "Mw1r1OkD"
+                ],
+                "order": 17,
+                "addressAssets": {
+                    "name": "AshSwap: Aggregator v2",
+                    "social": {
+                        "website": "https://ashswap.io",
+                        "email": "hello@ashswap.io",
+                        "blog": "https://medium.com/@ashswap",
+                        "twitter": "https://twitter.com/ash_swap",
+                        "telegram": "https://t.me/ash_swap",
+                        "discord": "https://discord.gg/apmhYCPDbW",
+                        "facebook": "https://www.facebook.com/ashswap.io",
+                        "commmunity": "https://egld.community/projects/ashswap"
+                    },
+                    "tags": [
+                        "ashswap",
+                        "swap",
+                        "aggregator",
+                        "dexaggregator"
+                    ],
+                    "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/ashswap.png",
+                    "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/ashswap.svg"
+                }
+            },
+            {
+                "identifier": "aggregateEsdt",
+                "address": "erd1qqqqqqqqqqqqqpgqcc69ts8409p3h77q5chsaqz57y6hugvc4fvs64k74v",
+                "data": "AAAAAQAAAAtaUEFZLTI0Nzg3NQAAAAAAAAAAAAAACQFTpu7+EwkAAAAAAAEAAAALV0VUSC1iNGNhMjkAAAAAAAAAAAAAAAYzDWvU6QM=",
+                "topics": [
+                    "YWdncmVnYXRlX2V2ZW50",
+                    "K12gZARk6JX4YEiw2FD+lritTOezrBfN/JzF66r6bA4="
+                ],
+                "additionalData": [
+                    "AAAAAQAAAAtaUEFZLTI0Nzg3NQAAAAAAAAAAAAAACQFTpu7+EwkAAAAAAAEAAAALV0VUSC1iNGNhMjkAAAAAAAAAAAAAAAYzDWvU6QM="
+                ],
+                "order": 18,
+                "addressAssets": {
+                    "name": "AshSwap: Aggregator v2",
+                    "social": {
+                        "website": "https://ashswap.io",
+                        "email": "hello@ashswap.io",
+                        "blog": "https://medium.com/@ashswap",
+                        "twitter": "https://twitter.com/ash_swap",
+                        "telegram": "https://t.me/ash_swap",
+                        "discord": "https://discord.gg/apmhYCPDbW",
+                        "facebook": "https://www.facebook.com/ashswap.io",
+                        "commmunity": "https://egld.community/projects/ashswap"
+                    },
+                    "tags": [
+                        "ashswap",
+                        "swap",
+                        "aggregator",
+                        "dexaggregator"
+                    ],
+                    "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/ashswap.png",
+                    "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/ashswap.svg"
+                }
+            }
+        ]
+    },
+    "operations": [
+        {
+            "id": "2864dedd4b536d70280d055f6a7b19b3e78360d476ba1beed977c322a2022d5c",
+            "action": "transfer",
+            "type": "esdt",
+            "esdtType": "FungibleESDT",
+            "identifier": "ZPAY-247875",
+            "ticker": "ZPAY",
+            "name": "ZoidPay",
+            "sender": "erd19dw6qeqyvn5ft7rqfzcds587j6u26n88kwkp0n0unnz7h2h6ds8qfpjmch",
+            "receiver": "erd1qqqqqqqqqqqqqpgqcc69ts8409p3h77q5chsaqz57y6hugvc4fvs64k74v",
+            "value": "24474512000000000000",
+            "decimals": 18,
+            "svgUrl": "https://media.elrond.com/tokens/asset/ZPAY-247875/logo.svg",
+            "senderAssets": {
+                "name": "laurentpecyna.elrond",
+                "tags": [
+                    "dns",
+                    "username"
+                ]
+            },
+            "receiverAssets": {
+                "name": "AshSwap: Aggregator v2",
+                "social": {
+                    "website": "https://ashswap.io",
+                    "email": "hello@ashswap.io",
+                    "blog": "https://medium.com/@ashswap",
+                    "twitter": "https://twitter.com/ash_swap",
+                    "telegram": "https://t.me/ash_swap",
+                    "discord": "https://discord.gg/apmhYCPDbW",
+                    "facebook": "https://www.facebook.com/ashswap.io",
+                    "commmunity": "https://egld.community/projects/ashswap"
+                },
+                "tags": [
+                    "ashswap",
+                    "swap",
+                    "aggregator",
+                    "dexaggregator"
+                ],
+                "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/ashswap.png",
+                "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/ashswap.svg"
+            },
+            "valueUSD": 0.193213225090336
+        },
+        {
+            "id": "6b3bfc2b92e495c2966c3084e6f07ac1d277700f0aa0f6acc2477e8a058e7b44",
+            "action": "writeLog",
+            "type": "log",
+            "sender": "erd19dw6qeqyvn5ft7rqfzcds587j6u26n88kwkp0n0unnz7h2h6ds8qfpjmch",
+            "receiver": "erd19dw6qeqyvn5ft7rqfzcds587j6u26n88kwkp0n0unnz7h2h6ds8qfpjmch",
+            "senderAssets": {
+                "name": "laurentpecyna.elrond",
+                "tags": [
+                    "dns",
+                    "username"
+                ]
+            },
+            "receiverAssets": {
+                "name": "laurentpecyna.elrond",
+                "tags": [
+                    "dns",
+                    "username"
+                ]
+            },
+            "data": "@6f6b"
+        },
+        {
+            "id": "2864dedd4b536d70280d055f6a7b19b3e78360d476ba1beed977c322a2022d5c",
+            "action": "transfer",
+            "type": "esdt",
+            "esdtType": "FungibleESDT",
+            "identifier": "ZPAY-247875",
+            "ticker": "ZPAY",
+            "name": "ZoidPay",
+            "sender": "erd1qqqqqqqqqqqqqpgqcc69ts8409p3h77q5chsaqz57y6hugvc4fvs64k74v",
+            "receiver": "erd1qqqqqqqqqqqqqpgqtjhhs49h0q2ncld64l3thtk7s7yuw47v2jps8emt0v",
+            "value": "24413325720000000000",
+            "decimals": 18,
+            "svgUrl": "https://media.elrond.com/tokens/asset/ZPAY-247875/logo.svg",
+            "senderAssets": {
+                "name": "AshSwap: Aggregator v2",
+                "social": {
+                    "website": "https://ashswap.io",
+                    "email": "hello@ashswap.io",
+                    "blog": "https://medium.com/@ashswap",
+                    "twitter": "https://twitter.com/ash_swap",
+                    "telegram": "https://t.me/ash_swap",
+                    "discord": "https://discord.gg/apmhYCPDbW",
+                    "facebook": "https://www.facebook.com/ashswap.io",
+                    "commmunity": "https://egld.community/projects/ashswap"
+                },
+                "tags": [
+                    "ashswap",
+                    "swap",
+                    "aggregator",
+                    "dexaggregator"
+                ],
+                "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/ashswap.png",
+                "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/ashswap.svg"
+            },
+            "receiverAssets": {
+                "name": "xExchange: ZPAY/WEGLD Liquidity Pool",
+                "tags": [
+                    "xexchange",
+                    "liquiditypool"
+                ],
+                "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.png",
+                "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.svg"
+            },
+            "valueUSD": 0.19273019202761016
+        },
+        {
+            "id": "2864dedd4b536d70280d055f6a7b19b3e78360d476ba1beed977c322a2022d5c",
+            "action": "transfer",
+            "type": "esdt",
+            "esdtType": "FungibleESDT",
+            "identifier": "ZPAY-247875",
+            "ticker": "ZPAY",
+            "name": "ZoidPay",
+            "sender": "erd1qqqqqqqqqqqqqpgqtjhhs49h0q2ncld64l3thtk7s7yuw47v2jps8emt0v",
+            "receiver": "erd1qqqqqqqqqqqqqpgqjsnxqprks7qxfwkcg2m2v9hxkrchgm9akp2segrswt",
+            "value": "12206662860000000",
+            "decimals": 18,
+            "svgUrl": "https://media.elrond.com/tokens/asset/ZPAY-247875/logo.svg",
+            "senderAssets": {
+                "name": "xExchange: ZPAY/WEGLD Liquidity Pool",
+                "tags": [
+                    "xexchange",
+                    "liquiditypool"
+                ],
+                "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.png",
+                "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.svg"
+            },
+            "receiverAssets": {
+                "name": "xExchange: Fees Collector",
+                "social": {
+                    "website": "https://xexchange.com",
+                    "twitter": "https://twitter.com/xExchangeApp",
+                    "telegram": "https://t.me/xExchangeApp",
+                    "blog": "https://multiversx.com/blog/maiar-exchange-mex-tokenomics"
+                },
+                "tags": [
+                    "xexchange",
+                    "energy",
+                    "fees",
+                    "collector"
+                ],
+                "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.png",
+                "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.svg"
+            },
+            "valueUSD": 0.00009636509601380508
+        },
+        {
+            "id": "2864dedd4b536d70280d055f6a7b19b3e78360d476ba1beed977c322a2022d5c",
+            "action": "transfer",
+            "type": "esdt",
+            "esdtType": "FungibleESDT",
+            "identifier": "WEGLD-bd4d79",
+            "ticker": "WEGLD",
+            "name": "WrappedEGLD",
+            "sender": "erd1qqqqqqqqqqqqqpgqtjhhs49h0q2ncld64l3thtk7s7yuw47v2jps8emt0v",
+            "receiver": "erd1qqqqqqqqqqqqqpgqa0fsfshnff4n76jhcye6k7uvd7qacsq42jpsp6shh2",
+            "value": "3391320281005",
+            "decimals": 18,
+            "svgUrl": "https://media.elrond.com/tokens/asset/WEGLD-bd4d79/logo.svg",
+            "senderAssets": {
+                "name": "xExchange: ZPAY/WEGLD Liquidity Pool",
+                "tags": [
+                    "xexchange",
+                    "liquiditypool"
+                ],
+                "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.png",
+                "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.svg"
+            },
+            "receiverAssets": {
+                "name": "xExchange: MEX/WEGLD Liquidity Pool",
+                "tags": [
+                    "xexchange",
+                    "liquiditypool"
+                ],
+                "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.png",
+                "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.svg"
+            },
+            "valueUSD": 0.00009666561165617147
+        },
+        {
+            "id": "2864dedd4b536d70280d055f6a7b19b3e78360d476ba1beed977c322a2022d5c",
+            "action": "localBurn",
+            "type": "esdt",
+            "esdtType": "FungibleESDT",
+            "identifier": "MEX-455c57",
+            "ticker": "MEX",
+            "name": "MEX",
+            "sender": "erd1qqqqqqqqqqqqqpgqa0fsfshnff4n76jhcye6k7uvd7qacsq42jpsp6shh2",
+            "receiver": "erd1qqqqqqqqqqqqqpgqcc69ts8409p3h77q5chsaqz57y6hugvc4fvs64k74v",
+            "value": "26179010034946180490",
+            "decimals": 18,
+            "svgUrl": "https://media.elrond.com/tokens/asset/MEX-455c57/logo.svg",
+            "senderAssets": {
+                "name": "xExchange: MEX/WEGLD Liquidity Pool",
+                "tags": [
+                    "xexchange",
+                    "liquiditypool"
+                ],
+                "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.png",
+                "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.svg"
+            },
+            "receiverAssets": {
+                "name": "AshSwap: Aggregator v2",
+                "social": {
+                    "website": "https://ashswap.io",
+                    "email": "hello@ashswap.io",
+                    "blog": "https://medium.com/@ashswap",
+                    "twitter": "https://twitter.com/ash_swap",
+                    "telegram": "https://t.me/ash_swap",
+                    "discord": "https://discord.gg/apmhYCPDbW",
+                    "facebook": "https://www.facebook.com/ashswap.io",
+                    "commmunity": "https://egld.community/projects/ashswap"
+                },
+                "tags": [
+                    "ashswap",
+                    "swap",
+                    "aggregator",
+                    "dexaggregator"
+                ],
+                "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/ashswap.png",
+                "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/ashswap.svg"
+            },
+            "valueUSD": 0.0000966584324470888
+        },
+        {
+            "id": "2864dedd4b536d70280d055f6a7b19b3e78360d476ba1beed977c322a2022d5c",
+            "action": "transfer",
+            "type": "esdt",
+            "esdtType": "FungibleESDT",
+            "identifier": "WEGLD-bd4d79",
+            "ticker": "WEGLD",
+            "name": "WrappedEGLD",
+            "sender": "erd1qqqqqqqqqqqqqpgqtjhhs49h0q2ncld64l3thtk7s7yuw47v2jps8emt0v",
+            "receiver": "erd1qqqqqqqqqqqqqpgqcc69ts8409p3h77q5chsaqz57y6hugvc4fvs64k74v",
+            "value": "6762299520217271",
+            "decimals": 18,
+            "svgUrl": "https://media.elrond.com/tokens/asset/WEGLD-bd4d79/logo.svg",
+            "senderAssets": {
+                "name": "xExchange: ZPAY/WEGLD Liquidity Pool",
+                "tags": [
+                    "xexchange",
+                    "liquiditypool"
+                ],
+                "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.png",
+                "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.svg"
+            },
+            "receiverAssets": {
+                "name": "AshSwap: Aggregator v2",
+                "social": {
+                    "website": "https://ashswap.io",
+                    "email": "hello@ashswap.io",
+                    "blog": "https://medium.com/@ashswap",
+                    "twitter": "https://twitter.com/ash_swap",
+                    "telegram": "https://t.me/ash_swap",
+                    "discord": "https://discord.gg/apmhYCPDbW",
+                    "facebook": "https://www.facebook.com/ashswap.io",
+                    "commmunity": "https://egld.community/projects/ashswap"
+                },
+                "tags": [
+                    "ashswap",
+                    "swap",
+                    "aggregator",
+                    "dexaggregator"
+                ],
+                "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/ashswap.png",
+                "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/ashswap.svg"
+            },
+            "valueUSD": 0.1927514257457046
+        },
+        {
+            "id": "2864dedd4b536d70280d055f6a7b19b3e78360d476ba1beed977c322a2022d5c",
+            "action": "transfer",
+            "type": "esdt",
+            "esdtType": "FungibleESDT",
+            "identifier": "WEGLD-bd4d79",
+            "ticker": "WEGLD",
+            "name": "WrappedEGLD",
+            "sender": "erd1qqqqqqqqqqqqqpgqcc69ts8409p3h77q5chsaqz57y6hugvc4fvs64k74v",
+            "receiver": "erd1qqqqqqqqqqqqqpgqt0uek344kaerr4gf9g2r8l0f4l8ygyha2jps82u9r6",
+            "value": "6762299520217271",
+            "decimals": 18,
+            "svgUrl": "https://media.elrond.com/tokens/asset/WEGLD-bd4d79/logo.svg",
+            "senderAssets": {
+                "name": "AshSwap: Aggregator v2",
+                "social": {
+                    "website": "https://ashswap.io",
+                    "email": "hello@ashswap.io",
+                    "blog": "https://medium.com/@ashswap",
+                    "twitter": "https://twitter.com/ash_swap",
+                    "telegram": "https://t.me/ash_swap",
+                    "discord": "https://discord.gg/apmhYCPDbW",
+                    "facebook": "https://www.facebook.com/ashswap.io",
+                    "commmunity": "https://egld.community/projects/ashswap"
+                },
+                "tags": [
+                    "ashswap",
+                    "swap",
+                    "aggregator",
+                    "dexaggregator"
+                ],
+                "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/ashswap.png",
+                "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/ashswap.svg"
+            },
+            "receiverAssets": {
+                "name": "xExchange: WETH/WEGLD Liquidity Pool",
+                "tags": [
+                    "xexchange",
+                    "liquiditypool"
+                ],
+                "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.png",
+                "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.svg"
+            },
+            "valueUSD": 0.1927514257457046
+        },
+        {
+            "id": "2864dedd4b536d70280d055f6a7b19b3e78360d476ba1beed977c322a2022d5c",
+            "action": "transfer",
+            "type": "esdt",
+            "esdtType": "FungibleESDT",
+            "identifier": "WEGLD-bd4d79",
+            "ticker": "WEGLD",
+            "name": "WrappedEGLD",
+            "sender": "erd1qqqqqqqqqqqqqpgqt0uek344kaerr4gf9g2r8l0f4l8ygyha2jps82u9r6",
+            "receiver": "erd1qqqqqqqqqqqqqpgqjsnxqprks7qxfwkcg2m2v9hxkrchgm9akp2segrswt",
+            "value": "3381149760108",
+            "decimals": 18,
+            "svgUrl": "https://media.elrond.com/tokens/asset/WEGLD-bd4d79/logo.svg",
+            "senderAssets": {
+                "name": "xExchange: WETH/WEGLD Liquidity Pool",
+                "tags": [
+                    "xexchange",
+                    "liquiditypool"
+                ],
+                "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.png",
+                "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.svg"
+            },
+            "receiverAssets": {
+                "name": "xExchange: Fees Collector",
+                "social": {
+                    "website": "https://xexchange.com",
+                    "twitter": "https://twitter.com/xExchangeApp",
+                    "telegram": "https://t.me/xExchangeApp",
+                    "blog": "https://multiversx.com/blog/maiar-exchange-mex-tokenomics"
+                },
+                "tags": [
+                    "xexchange",
+                    "energy",
+                    "fees",
+                    "collector"
+                ],
+                "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.png",
+                "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.svg"
+            },
+            "valueUSD": 0.0000963757128728342
+        },
+        {
+            "id": "2864dedd4b536d70280d055f6a7b19b3e78360d476ba1beed977c322a2022d5c",
+            "action": "transfer",
+            "type": "esdt",
+            "esdtType": "FungibleESDT",
+            "identifier": "WEGLD-bd4d79",
+            "ticker": "WEGLD",
+            "name": "WrappedEGLD",
+            "sender": "erd1qqqqqqqqqqqqqpgqt0uek344kaerr4gf9g2r8l0f4l8ygyha2jps82u9r6",
+            "receiver": "erd1qqqqqqqqqqqqqpgqa0fsfshnff4n76jhcye6k7uvd7qacsq42jpsp6shh2",
+            "value": "3381149760109",
+            "decimals": 18,
+            "svgUrl": "https://media.elrond.com/tokens/asset/WEGLD-bd4d79/logo.svg",
+            "senderAssets": {
+                "name": "xExchange: WETH/WEGLD Liquidity Pool",
+                "tags": [
+                    "xexchange",
+                    "liquiditypool"
+                ],
+                "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.png",
+                "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.svg"
+            },
+            "receiverAssets": {
+                "name": "xExchange: MEX/WEGLD Liquidity Pool",
+                "tags": [
+                    "xexchange",
+                    "liquiditypool"
+                ],
+                "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.png",
+                "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.svg"
+            },
+            "valueUSD": 0.0000963757128728627
+        },
+        {
+            "id": "2864dedd4b536d70280d055f6a7b19b3e78360d476ba1beed977c322a2022d5c",
+            "action": "localBurn",
+            "type": "esdt",
+            "esdtType": "FungibleESDT",
+            "identifier": "MEX-455c57",
+            "ticker": "MEX",
+            "name": "MEX",
+            "sender": "erd1qqqqqqqqqqqqqpgqa0fsfshnff4n76jhcye6k7uvd7qacsq42jpsp6shh2",
+            "receiver": "erd1qqqqqqqqqqqqqpgqcc69ts8409p3h77q5chsaqz57y6hugvc4fvs64k74v",
+            "value": "26100499558508831892",
+            "decimals": 18,
+            "svgUrl": "https://media.elrond.com/tokens/asset/MEX-455c57/logo.svg",
+            "senderAssets": {
+                "name": "xExchange: MEX/WEGLD Liquidity Pool",
+                "tags": [
+                    "xexchange",
+                    "liquiditypool"
+                ],
+                "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.png",
+                "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.svg"
+            },
+            "receiverAssets": {
+                "name": "AshSwap: Aggregator v2",
+                "social": {
+                    "website": "https://ashswap.io",
+                    "email": "hello@ashswap.io",
+                    "blog": "https://medium.com/@ashswap",
+                    "twitter": "https://twitter.com/ash_swap",
+                    "telegram": "https://t.me/ash_swap",
+                    "discord": "https://discord.gg/apmhYCPDbW",
+                    "facebook": "https://www.facebook.com/ashswap.io",
+                    "commmunity": "https://egld.community/projects/ashswap"
+                },
+                "tags": [
+                    "ashswap",
+                    "swap",
+                    "aggregator",
+                    "dexaggregator"
+                ],
+                "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/ashswap.png",
+                "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/ashswap.svg"
+            },
+            "valueUSD": 0.0000963685551914944
+        },
+        {
+            "id": "2864dedd4b536d70280d055f6a7b19b3e78360d476ba1beed977c322a2022d5c",
+            "action": "transfer",
+            "type": "esdt",
+            "esdtType": "FungibleESDT",
+            "identifier": "WETH-b4ca29",
+            "ticker": "WETH",
+            "name": "WrappedETH",
+            "sender": "erd1qqqqqqqqqqqqqpgqt0uek344kaerr4gf9g2r8l0f4l8ygyha2jps82u9r6",
+            "receiver": "erd1qqqqqqqqqqqqqpgqcc69ts8409p3h77q5chsaqz57y6hugvc4fvs64k74v",
+            "value": "56132736706819",
+            "decimals": 18,
+            "svgUrl": "https://media.elrond.com/tokens/asset/WETH-b4ca29/logo.svg",
+            "senderAssets": {
+                "name": "xExchange: WETH/WEGLD Liquidity Pool",
+                "tags": [
+                    "xexchange",
+                    "liquiditypool"
+                ],
+                "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.png",
+                "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.svg"
+            },
+            "receiverAssets": {
+                "name": "AshSwap: Aggregator v2",
+                "social": {
+                    "website": "https://ashswap.io",
+                    "email": "hello@ashswap.io",
+                    "blog": "https://medium.com/@ashswap",
+                    "twitter": "https://twitter.com/ash_swap",
+                    "telegram": "https://t.me/ash_swap",
+                    "discord": "https://discord.gg/apmhYCPDbW",
+                    "facebook": "https://www.facebook.com/ashswap.io",
+                    "commmunity": "https://egld.community/projects/ashswap"
+                },
+                "tags": [
+                    "ashswap",
+                    "swap",
+                    "aggregator",
+                    "dexaggregator"
+                ],
+                "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/ashswap.png",
+                "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/ashswap.svg"
+            },
+            "valueUSD": 0.19467792806481474
+        },
+        {
+            "id": "2864dedd4b536d70280d055f6a7b19b3e78360d476ba1beed977c322a2022d5c",
+            "action": "transfer",
+            "type": "esdt",
+            "esdtType": "FungibleESDT",
+            "identifier": "WETH-b4ca29",
+            "ticker": "WETH",
+            "name": "WrappedETH",
+            "sender": "erd1qqqqqqqqqqqqqpgqcc69ts8409p3h77q5chsaqz57y6hugvc4fvs64k74v",
+            "receiver": "erd19dw6qeqyvn5ft7rqfzcds587j6u26n88kwkp0n0unnz7h2h6ds8qfpjmch",
+            "value": "56132736706819",
+            "decimals": 18,
+            "svgUrl": "https://media.elrond.com/tokens/asset/WETH-b4ca29/logo.svg",
+            "senderAssets": {
+                "name": "AshSwap: Aggregator v2",
+                "social": {
+                    "website": "https://ashswap.io",
+                    "email": "hello@ashswap.io",
+                    "blog": "https://medium.com/@ashswap",
+                    "twitter": "https://twitter.com/ash_swap",
+                    "telegram": "https://t.me/ash_swap",
+                    "discord": "https://discord.gg/apmhYCPDbW",
+                    "facebook": "https://www.facebook.com/ashswap.io",
+                    "commmunity": "https://egld.community/projects/ashswap"
+                },
+                "tags": [
+                    "ashswap",
+                    "swap",
+                    "aggregator",
+                    "dexaggregator"
+                ],
+                "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/ashswap.png",
+                "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/ashswap.svg"
+            },
+            "receiverAssets": {
+                "name": "laurentpecyna.elrond",
+                "tags": [
+                    "dns",
+                    "username"
+                ]
+            },
+            "valueUSD": 0.19467792806481474
+        }
+    ]
+}

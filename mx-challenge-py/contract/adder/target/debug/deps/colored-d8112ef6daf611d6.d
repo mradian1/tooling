@@ -1,0 +1,12 @@
+/home/misu/python/mx-challenge-py/contract/adder/target/debug/deps/libcolored-d8112ef6daf611d6.rmeta: /home/misu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs /home/misu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/color.rs /home/misu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/control.rs /home/misu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/error.rs /home/misu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/style.rs /home/misu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/customcolors.rs
+
+/home/misu/python/mx-challenge-py/contract/adder/target/debug/deps/libcolored-d8112ef6daf611d6.rlib: /home/misu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs /home/misu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/color.rs /home/misu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/control.rs /home/misu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/error.rs /home/misu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/style.rs /home/misu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/customcolors.rs
+
+/home/misu/python/mx-challenge-py/contract/adder/target/debug/deps/colored-d8112ef6daf611d6.d: /home/misu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs /home/misu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/color.rs /home/misu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/control.rs /home/misu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/error.rs /home/misu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/style.rs /home/misu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/customcolors.rs
+
+/home/misu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs:
+/home/misu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/color.rs:
+/home/misu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/control.rs:
+/home/misu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/error.rs:
+/home/misu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/style.rs:
+/home/misu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/customcolors.rs:

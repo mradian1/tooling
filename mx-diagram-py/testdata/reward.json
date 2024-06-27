@@ -1,0 +1,160 @@
+{
+  "txHash": "3d5c1a2adbd6b362c749c1dfcde7aee269feeea8e5185aa15e08cef70cc39886",
+  "gasLimit": 50000000,
+  "gasPrice": 1000000000,
+  "gasUsed": 50000000,
+  "miniBlockHash": "57a2c04ae0c2626e38aebbf2b59e2751344a981f605fb7bc2616eecd8e92288e",
+  "nonce": 11663,
+  "receiver": "erd1qqqqqqqqqqqqqpgq60exvzsrz2qcdclvjzefthw84e05r52wd29q39yfjc",
+  "receiverShard": 2,
+  "round": 4212822,
+  "sender": "erd1eckst7vrp9y82hxscjvpzcgpt9fyqvrggk7ky9xppfcqre3qz5vsjqk5kr",
+  "senderShard": 1,
+  "signature": "24749aa71161ec2705f125a722fa2f01d26a8a00c6bc63f723f67990f1e35255e18f318ee5ba95d68f0ea22d926317e6c998c123538c98d0513fd526649a9707",
+  "status": "fail",
+  "value": "0",
+  "fee": "646025000000000",
+  "timestamp": 1719276932,
+  "data": "RVNEVFRyYW5zZmVyQDU0NDE0NDQxMmQzMTY1MzQ2MTYzMzhAMGE3NGQ5ODgyNTEwZDhlOEA3MjY1Nzc2MTcyNjQ=",
+  "function": "reward",
+  "action": {
+    "category": "esdtNft",
+    "name": "transfer",
+    "description": "Transfer",
+    "arguments": {
+      "transfers": [
+        {
+          "type": "FungibleESDT",
+          "name": "Tada",
+          "ticker": "TADA",
+          "svgUrl": "https://devnet-media.elrond.com/tokens/asset/TADA-1e4ac8/logo.svg",
+          "token": "TADA-1e4ac8",
+          "decimals": 18,
+          "value": "753466216438356200"
+        }
+      ],
+      "receiver": "erd1qqqqqqqqqqqqqpgq60exvzsrz2qcdclvjzefthw84e05r52wd29q39yfjc",
+      "functionName": "reward"
+    }
+  },
+  "type": "normal",
+  "results": [
+    {
+      "hash": "64dd6db95c5bc0ab2d99a415eadfe4b5ca1f686551134c732eb773c198da88e6",
+      "timestamp": 1719276956,
+      "nonce": 11663,
+      "gasLimit": 0,
+      "gasPrice": 0,
+      "value": "0",
+      "sender": "erd1qqqqqqqqqqqqqpgq60exvzsrz2qcdclvjzefthw84e05r52wd29q39yfjc",
+      "receiver": "erd1eckst7vrp9y82hxscjvpzcgpt9fyqvrggk7ky9xppfcqre3qz5vsjqk5kr",
+      "data": "RVNEVFRyYW5zZmVyQDU0NDE0NDQxMmQzMTY1MzQ2MTYzMzhAMGE3NGQ5ODgyNTEwZDhlOEA3NTczNjU3MjIwNjU3MjcyNmY3Mg==",
+      "prevTxHash": "3d5c1a2adbd6b362c749c1dfcde7aee269feeea8e5185aa15e08cef70cc39886",
+      "originalTxHash": "3d5c1a2adbd6b362c749c1dfcde7aee269feeea8e5185aa15e08cef70cc39886",
+      "callType": "0",
+      "miniBlockHash": "b55418470f875eb1cb18b5fb3fdb5939061c3b811af5bae95c5f09ccfba661b0",
+      "logs": {
+        "id": "64dd6db95c5bc0ab2d99a415eadfe4b5ca1f686551134c732eb773c198da88e6",
+        "address": "erd1eckst7vrp9y82hxscjvpzcgpt9fyqvrggk7ky9xppfcqre3qz5vsjqk5kr",
+        "events": [
+          {
+            "identifier": "ESDTTransfer",
+            "address": "erd1qqqqqqqqqqqqqpgq60exvzsrz2qcdclvjzefthw84e05r52wd29q39yfjc",
+            "topics": [
+              "VEFEQS0xZTRhYzg=",
+              "",
+              "CnTZiCUQ2Og=",
+              "zi0F+YMJSHVc0MSYEWEBWVJAMGhFvWIUwQpwAeYgFRk="
+            ],
+            "additionalData": [
+              "",
+              "RVNEVFRyYW5zZmVy",
+              "VEFEQS0xZTRhYzg=",
+              "CnTZiCUQ2Og=",
+              "dXNlciBlcnJvcg=="
+            ],
+            "order": 0
+          },
+          {
+            "identifier": "completedTxEvent",
+            "address": "erd1eckst7vrp9y82hxscjvpzcgpt9fyqvrggk7ky9xppfcqre3qz5vsjqk5kr",
+            "topics": [
+              "PVwaKtvWs2LHScHfzeeu4mn+7qjlGFqhXgjO9wzDmIY="
+            ],
+            "order": 1
+          }
+        ]
+      },
+      "returnMessage": "Endpoint can only be called by owner",
+      "function": "ESDTTransfer"
+    }
+  ],
+  "price": 30.05,
+  "logs": {
+    "id": "3d5c1a2adbd6b362c749c1dfcde7aee269feeea8e5185aa15e08cef70cc39886",
+    "address": "erd1qqqqqqqqqqqqqpgq60exvzsrz2qcdclvjzefthw84e05r52wd29q39yfjc",
+    "events": [
+      {
+        "identifier": "signalError",
+        "address": "erd1qqqqqqqqqqqqqpgq60exvzsrz2qcdclvjzefthw84e05r52wd29q39yfjc",
+        "data": "RVNEVFRyYW5zZmVyQDU0NDE0NDQxMmQzMTY1MzQ2MTYzMzhAMGE3NGQ5ODgyNTEwZDhlOEA3NTczNjU3MjIwNjU3MjcyNmY3Mg==",
+        "topics": [
+          "zi0F+YMJSHVc0MSYEWEBWVJAMGhFvWIUwQpwAeYgFRk=",
+          "RW5kcG9pbnQgY2FuIG9ubHkgYmUgY2FsbGVkIGJ5IG93bmVy"
+        ],
+        "additionalData": [
+          "RVNEVFRyYW5zZmVyQDU0NDE0NDQxMmQzMTY1MzQ2MTYzMzhAMGE3NGQ5ODgyNTEwZDhlOEA3NTczNjU3MjIwNjU3MjcyNmY3Mg=="
+        ],
+        "order": 0
+      },
+      {
+        "identifier": "internalVMErrors",
+        "address": "erd1eckst7vrp9y82hxscjvpzcgpt9fyqvrggk7ky9xppfcqre3qz5vsjqk5kr",
+        "data": "CglydW50aW1lLmdvOjgzMCBbZXJyb3Igc2lnbmFsbGVkIGJ5IHNtYXJ0Y29udHJhY3RdIFtyZXdhcmRdCglydW50aW1lLmdvOjgzMCBbZXJyb3Igc2lnbmFsbGVkIGJ5IHNtYXJ0Y29udHJhY3RdIFtyZXdhcmRdCglydW50aW1lLmdvOjgyNyBbRW5kcG9pbnQgY2FuIG9ubHkgYmUgY2FsbGVkIGJ5IG93bmVyXQ==",
+        "topics": [
+          "AAAAAAAAAAAFANPyZgoDEoGG4+yQspXdx65fQdFOaoo=",
+          "cmV3YXJk"
+        ],
+        "additionalData": [
+          "CglydW50aW1lLmdvOjgzMCBbZXJyb3Igc2lnbmFsbGVkIGJ5IHNtYXJ0Y29udHJhY3RdIFtyZXdhcmRdCglydW50aW1lLmdvOjgzMCBbZXJyb3Igc2lnbmFsbGVkIGJ5IHNtYXJ0Y29udHJhY3RdIFtyZXdhcmRdCglydW50aW1lLmdvOjgyNyBbRW5kcG9pbnQgY2FuIG9ubHkgYmUgY2FsbGVkIGJ5IG93bmVyXQ=="
+        ],
+        "order": 1
+      }
+    ]
+  },
+  "operations": [
+    {
+      "id": "64dd6db95c5bc0ab2d99a415eadfe4b5ca1f686551134c732eb773c198da88e6",
+      "action": "transfer",
+      "type": "esdt",
+      "esdtType": "FungibleESDT",
+      "identifier": "TADA-1e4ac8",
+      "ticker": "TADA",
+      "name": "Tada",
+      "sender": "erd1qqqqqqqqqqqqqpgq60exvzsrz2qcdclvjzefthw84e05r52wd29q39yfjc",
+      "receiver": "erd1eckst7vrp9y82hxscjvpzcgpt9fyqvrggk7ky9xppfcqre3qz5vsjqk5kr",
+      "value": "753466216438356200",
+      "decimals": 18,
+      "svgUrl": "https://devnet-media.elrond.com/tokens/asset/TADA-1e4ac8/logo.svg",
+      "additionalData": [
+        "",
+        "RVNEVFRyYW5zZmVy",
+        "VEFEQS0xZTRhYzg=",
+        "CnTZiCUQ2Og=",
+        "dXNlciBlcnJvcg=="
+      ]
+    },
+    {
+      "id": "3d5c1a2adbd6b362c749c1dfcde7aee269feeea8e5185aa15e08cef70cc39886",
+      "action": "signalError",
+      "type": "error",
+      "sender": "erd1qqqqqqqqqqqqqpgq60exvzsrz2qcdclvjzefthw84e05r52wd29q39yfjc",
+      "receiver": "erd1eckst7vrp9y82hxscjvpzcgpt9fyqvrggk7ky9xppfcqre3qz5vsjqk5kr",
+      "additionalData": [
+        "RVNEVFRyYW5zZmVyQDU0NDE0NDQxMmQzMTY1MzQ2MTYzMzhAMGE3NGQ5ODgyNTEwZDhlOEA3NTczNjU3MjIwNjU3MjcyNmY3Mg=="
+      ],
+      "data": "ESDTTransfer@544144412d316534616338@0a74d9882510d8e8@75736572206572726f72",
+      "message": "Endpoint can only be called by owner"
+    }
+  ]
+}
